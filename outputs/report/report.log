@@ -1,0 +1,24 @@
+2026-05-23 12:24:22.207 | INFO     | wisp.eval.sampler:__init__:33 - loading /Users/bartlomiejdmitruk/projects/studies/SIGK/Projekt 5/wisp/outputs/checkpoints/ema.pt on mps
+2026-05-23 12:24:23.535 | INFO     | wisp.eval.sampler:__init__:33 - loading /Users/bartlomiejdmitruk/projects/studies/SIGK/Projekt 5/wisp/outputs/checkpoints/ema.pt on mps
+2026-05-23 12:26:04.391 | INFO     | wisp.eval.sampler:__init__:33 - loading /Users/bartlomiejdmitruk/projects/studies/SIGK/Projekt 5/wisp/outputs/checkpoints/ema.pt on mps
+2026-05-23 12:26:06.425 | INFO     | wisp.eval.report:_compute_metrics:54 - walk: FMD=0.9956  MPJPE=0.1051  Var=0.0021
+2026-05-23 12:26:07.058 | INFO     | wisp.eval.report:_compute_metrics:54 - jump: FMD=2.7171  MPJPE=0.1298  Var=0.0026
+2026-05-23 12:26:28.469 | SUCCESS  | wisp.eval.report:build_report:131 - report saved under /Users/bartlomiejdmitruk/projects/studies/SIGK/Projekt 5/wisp/outputs/report
+2026-05-23 12:51:01.348 | INFO     | wisp.eval.sampler:__init__:33 - loading /Users/bartlomiejdmitruk/projects/studies/SIGK/Projekt 5/wisp/outputs/checkpoints/ema.pt on mps
+2026-05-23 12:51:03.414 | INFO     | wisp.eval.report:_compute_metrics:80 - walk: FMD=1.1026  MPJPE=0.1051  Var=0.0021
+2026-05-23 12:51:04.054 | INFO     | wisp.eval.report:_compute_metrics:80 - jump: FMD=3.0510  MPJPE=0.1298  Var=0.0026
+2026-05-23 12:51:17.797 | SUCCESS  | wisp.eval.report:build_report:157 - report saved under /Users/bartlomiejdmitruk/projects/studies/SIGK/Projekt 5/wisp/outputs/report
+2026-05-23 13:13:14.503 | INFO     | wisp.eval.sampler:__init__:33 - loading /Users/bartlomiejdmitruk/projects/studies/SIGK/Projekt 5/wisp/outputs/checkpoints/ema.pt on mps
+2026-05-23 13:13:17.309 | INFO     | wisp.eval.report:_compute_metrics:80 - walk: FMD=0.6337  MPJPE=0.1028  Var=0.0089
+2026-05-23 13:13:18.258 | INFO     | wisp.eval.report:_compute_metrics:80 - jump: FMD=0.4136  MPJPE=0.1642  Var=0.0158
+2026-05-23 13:13:27.674 | SUCCESS  | wisp.eval.report:build_report:157 - report saved under /Users/bartlomiejdmitruk/projects/studies/SIGK/Projekt 5/wisp/outputs/report
+2026-05-23 14:10:01.041 | INFO     | wisp.eval.sampler:__init__:33 - loading /Users/bartlomiejdmitruk/projects/studies/SIGK/Projekt 5/wisp/outputs/checkpoints/ema.pt on mps
+2026-05-23 14:10:04.002 | INFO     | wisp.eval.report:_compute_metrics:81 - walk: FMD=0.6337  MPJPE=0.1028  Var=0.0089
+2026-05-23 14:10:04.975 | INFO     | wisp.eval.report:_compute_metrics:81 - jump: FMD=0.4136  MPJPE=0.1642  Var=0.0158
+2026-05-23 14:10:04.993 | INFO     | wisp.eval.report:build_report:133 - SMPL model found — single-sample GIFs will use the body mesh
+2026-05-23 14:10:38.054 | SUCCESS  | wisp.eval.report:build_report:179 - report saved under /Users/bartlomiejdmitruk/projects/studies/SIGK/Projekt 5/wisp/outputs/report
+2026-05-23 15:42:08.182 | INFO     | wisp.eval.sampler:__init__:34 - loading /Users/bartlomiejdmitruk/projects/studies/SIGK/Projekt 5/wisp/outputs/checkpoints/ema.pt on mps
+2026-05-23 15:42:12.906 | INFO     | wisp.eval.report:_compute_metrics:86 - walk: FMD=0.6868  MPJPE=0.0904  Var=0.0079
+2026-05-23 15:42:16.169 | INFO     | wisp.eval.report:_compute_metrics:86 - jump: FMD=0.4482  MPJPE=0.1340  Var=0.0123
+2026-05-23 15:42:16.185 | INFO     | wisp.eval.report:build_report:144 - SMPL model found — single-sample GIFs will use the body mesh
+2026-05-23 15:42:50.778 | SUCCESS  | wisp.eval.report:build_report:196 - report saved under /Users/bartlomiejdmitruk/projects/studies/SIGK/Projekt 5/wisp/outputs/report

@@ -1,0 +1,696 @@
+2026-05-23 12:19:55.392 | INFO     | wisp.utils.logging:log_environment:50 - torch 2.12.0 | device=mps
+2026-05-23 12:19:55.411 | INFO     | wisp.training.trainer:run_training:53 - dataset: 848 virtual windows across 106 clips
+2026-05-23 12:19:56.658 | INFO     | wisp.training.trainer:run_training:94 - denoiser params: 5.38M
+2026-05-23 12:20:01.687 | INFO     | wisp.training.trainer:run_training:142 - epoch    1/60 | total=0.2607 | rec=0.1525 | pos=0.0863 | vel=0.0436 | bone=0.0000 | 5.0s
+2026-05-23 12:20:05.989 | INFO     | wisp.training.trainer:run_training:142 - epoch    2/60 | total=0.0697 | rec=0.0426 | pos=0.0200 | vel=0.0140 | bone=0.0000 | 4.3s
+2026-05-23 12:20:10.296 | INFO     | wisp.training.trainer:run_training:142 - epoch    3/60 | total=0.0609 | rec=0.0383 | pos=0.0172 | vel=0.0107 | bone=0.0000 | 4.3s
+2026-05-23 12:20:14.611 | INFO     | wisp.training.trainer:run_training:142 - epoch    4/60 | total=0.0586 | rec=0.0369 | pos=0.0168 | vel=0.0097 | bone=0.0000 | 4.3s
+2026-05-23 12:20:18.922 | INFO     | wisp.training.trainer:run_training:142 - epoch    5/60 | total=0.0556 | rec=0.0355 | pos=0.0157 | vel=0.0087 | bone=0.0000 | 4.3s
+2026-05-23 12:20:23.242 | INFO     | wisp.training.trainer:run_training:142 - epoch    6/60 | total=0.0533 | rec=0.0342 | pos=0.0149 | vel=0.0082 | bone=0.0000 | 4.3s
+2026-05-23 12:20:27.583 | INFO     | wisp.training.trainer:run_training:142 - epoch    7/60 | total=0.0514 | rec=0.0336 | pos=0.0139 | vel=0.0078 | bone=0.0000 | 4.3s
+2026-05-23 12:20:31.914 | INFO     | wisp.training.trainer:run_training:142 - epoch    8/60 | total=0.0475 | rec=0.0315 | pos=0.0124 | vel=0.0072 | bone=0.0000 | 4.3s
+2026-05-23 12:20:36.246 | INFO     | wisp.training.trainer:run_training:142 - epoch    9/60 | total=0.0458 | rec=0.0302 | pos=0.0119 | vel=0.0074 | bone=0.0000 | 4.3s
+2026-05-23 12:20:40.580 | INFO     | wisp.training.trainer:run_training:142 - epoch   10/60 | total=0.0429 | rec=0.0288 | pos=0.0107 | vel=0.0068 | bone=0.0000 | 4.3s
+2026-05-23 12:20:44.920 | INFO     | wisp.training.trainer:run_training:142 - epoch   11/60 | total=0.0397 | rec=0.0269 | pos=0.0097 | vel=0.0061 | bone=0.0000 | 4.3s
+2026-05-23 12:20:49.256 | INFO     | wisp.training.trainer:run_training:142 - epoch   12/60 | total=0.0384 | rec=0.0261 | pos=0.0093 | vel=0.0061 | bone=0.0000 | 4.3s
+2026-05-23 12:20:53.597 | INFO     | wisp.training.trainer:run_training:142 - epoch   13/60 | total=0.0372 | rec=0.0254 | pos=0.0089 | vel=0.0057 | bone=0.0000 | 4.3s
+2026-05-23 12:20:57.924 | INFO     | wisp.training.trainer:run_training:142 - epoch   14/60 | total=0.0374 | rec=0.0257 | pos=0.0091 | vel=0.0052 | bone=0.0000 | 4.3s
+2026-05-23 12:21:02.244 | INFO     | wisp.training.trainer:run_training:142 - epoch   15/60 | total=0.0358 | rec=0.0247 | pos=0.0086 | vel=0.0050 | bone=0.0000 | 4.3s
+2026-05-23 12:21:06.564 | INFO     | wisp.training.trainer:run_training:142 - epoch   16/60 | total=0.0350 | rec=0.0243 | pos=0.0083 | vel=0.0048 | bone=0.0000 | 4.3s
+2026-05-23 12:21:10.885 | INFO     | wisp.training.trainer:run_training:142 - epoch   17/60 | total=0.0330 | rec=0.0228 | pos=0.0079 | vel=0.0045 | bone=0.0000 | 4.3s
+2026-05-23 12:21:15.220 | INFO     | wisp.training.trainer:run_training:142 - epoch   18/60 | total=0.0323 | rec=0.0225 | pos=0.0078 | vel=0.0042 | bone=0.0000 | 4.3s
+2026-05-23 12:21:19.555 | INFO     | wisp.training.trainer:run_training:142 - epoch   19/60 | total=0.0324 | rec=0.0226 | pos=0.0078 | vel=0.0041 | bone=0.0000 | 4.3s
+2026-05-23 12:21:23.792 | INFO     | wisp.training.trainer:run_training:142 - epoch   20/60 | total=0.0316 | rec=0.0220 | pos=0.0077 | vel=0.0039 | bone=0.0000 | 4.2s
+2026-05-23 12:21:28.007 | INFO     | wisp.training.trainer:run_training:142 - epoch   21/60 | total=0.0315 | rec=0.0220 | pos=0.0076 | vel=0.0037 | bone=0.0000 | 4.2s
+2026-05-23 12:21:32.242 | INFO     | wisp.training.trainer:run_training:142 - epoch   22/60 | total=0.0316 | rec=0.0221 | pos=0.0076 | vel=0.0037 | bone=0.0000 | 4.2s
+2026-05-23 12:21:36.438 | INFO     | wisp.training.trainer:run_training:142 - epoch   23/60 | total=0.0300 | rec=0.0212 | pos=0.0071 | vel=0.0033 | bone=0.0000 | 4.2s
+2026-05-23 12:21:40.631 | INFO     | wisp.training.trainer:run_training:142 - epoch   24/60 | total=0.0296 | rec=0.0209 | pos=0.0071 | vel=0.0032 | bone=0.0000 | 4.2s
+2026-05-23 12:21:44.835 | INFO     | wisp.training.trainer:run_training:142 - epoch   25/60 | total=0.0304 | rec=0.0216 | pos=0.0073 | vel=0.0032 | bone=0.0000 | 4.2s
+2026-05-23 12:21:45.061 | INFO     | wisp.training.trainer:run_training:162 - checkpoint saved (epoch 25)
+2026-05-23 12:21:49.254 | INFO     | wisp.training.trainer:run_training:142 - epoch   26/60 | total=0.0300 | rec=0.0213 | pos=0.0072 | vel=0.0030 | bone=0.0000 | 4.2s
+2026-05-23 12:21:53.444 | INFO     | wisp.training.trainer:run_training:142 - epoch   27/60 | total=0.0303 | rec=0.0214 | pos=0.0074 | vel=0.0030 | bone=0.0000 | 4.2s
+2026-05-23 12:21:57.639 | INFO     | wisp.training.trainer:run_training:142 - epoch   28/60 | total=0.0286 | rec=0.0203 | pos=0.0069 | vel=0.0029 | bone=0.0000 | 4.2s
+2026-05-23 12:22:01.850 | INFO     | wisp.training.trainer:run_training:142 - epoch   29/60 | total=0.0286 | rec=0.0202 | pos=0.0070 | vel=0.0029 | bone=0.0000 | 4.2s
+2026-05-23 12:22:06.049 | INFO     | wisp.training.trainer:run_training:142 - epoch   30/60 | total=0.0285 | rec=0.0202 | pos=0.0069 | vel=0.0027 | bone=0.0000 | 4.2s
+2026-05-23 12:22:10.244 | INFO     | wisp.training.trainer:run_training:142 - epoch   31/60 | total=0.0283 | rec=0.0202 | pos=0.0068 | vel=0.0026 | bone=0.0000 | 4.2s
+2026-05-23 12:22:14.438 | INFO     | wisp.training.trainer:run_training:142 - epoch   32/60 | total=0.0272 | rec=0.0193 | pos=0.0066 | vel=0.0025 | bone=0.0000 | 4.2s
+2026-05-23 12:22:18.636 | INFO     | wisp.training.trainer:run_training:142 - epoch   33/60 | total=0.0281 | rec=0.0199 | pos=0.0069 | vel=0.0026 | bone=0.0000 | 4.2s
+2026-05-23 12:22:22.838 | INFO     | wisp.training.trainer:run_training:142 - epoch   34/60 | total=0.0273 | rec=0.0195 | pos=0.0066 | vel=0.0024 | bone=0.0000 | 4.2s
+2026-05-23 12:22:27.034 | INFO     | wisp.training.trainer:run_training:142 - epoch   35/60 | total=0.0274 | rec=0.0194 | pos=0.0067 | vel=0.0024 | bone=0.0000 | 4.2s
+2026-05-23 12:22:31.231 | INFO     | wisp.training.trainer:run_training:142 - epoch   36/60 | total=0.0276 | rec=0.0197 | pos=0.0067 | vel=0.0023 | bone=0.0000 | 4.2s
+2026-05-23 12:22:35.435 | INFO     | wisp.training.trainer:run_training:142 - epoch   37/60 | total=0.0271 | rec=0.0193 | pos=0.0066 | vel=0.0023 | bone=0.0000 | 4.2s
+2026-05-23 12:22:39.630 | INFO     | wisp.training.trainer:run_training:142 - epoch   38/60 | total=0.0264 | rec=0.0187 | pos=0.0065 | vel=0.0023 | bone=0.0000 | 4.2s
+2026-05-23 12:22:43.833 | INFO     | wisp.training.trainer:run_training:142 - epoch   39/60 | total=0.0258 | rec=0.0184 | pos=0.0063 | vel=0.0022 | bone=0.0000 | 4.2s
+2026-05-23 12:22:48.029 | INFO     | wisp.training.trainer:run_training:142 - epoch   40/60 | total=0.0271 | rec=0.0194 | pos=0.0066 | vel=0.0021 | bone=0.0000 | 4.2s
+2026-05-23 12:22:52.224 | INFO     | wisp.training.trainer:run_training:142 - epoch   41/60 | total=0.0269 | rec=0.0191 | pos=0.0067 | vel=0.0022 | bone=0.0000 | 4.2s
+2026-05-23 12:22:56.416 | INFO     | wisp.training.trainer:run_training:142 - epoch   42/60 | total=0.0255 | rec=0.0182 | pos=0.0063 | vel=0.0021 | bone=0.0000 | 4.2s
+2026-05-23 12:23:00.610 | INFO     | wisp.training.trainer:run_training:142 - epoch   43/60 | total=0.0257 | rec=0.0183 | pos=0.0064 | vel=0.0021 | bone=0.0000 | 4.2s
+2026-05-23 12:23:04.817 | INFO     | wisp.training.trainer:run_training:142 - epoch   44/60 | total=0.0254 | rec=0.0181 | pos=0.0063 | vel=0.0020 | bone=0.0000 | 4.2s
+2026-05-23 12:23:09.014 | INFO     | wisp.training.trainer:run_training:142 - epoch   45/60 | total=0.0260 | rec=0.0187 | pos=0.0063 | vel=0.0021 | bone=0.0000 | 4.2s
+2026-05-23 12:23:13.211 | INFO     | wisp.training.trainer:run_training:142 - epoch   46/60 | total=0.0251 | rec=0.0180 | pos=0.0061 | vel=0.0019 | bone=0.0000 | 4.2s
+2026-05-23 12:23:17.405 | INFO     | wisp.training.trainer:run_training:142 - epoch   47/60 | total=0.0250 | rec=0.0180 | pos=0.0061 | vel=0.0019 | bone=0.0000 | 4.2s
+2026-05-23 12:23:21.603 | INFO     | wisp.training.trainer:run_training:142 - epoch   48/60 | total=0.0246 | rec=0.0177 | pos=0.0060 | vel=0.0018 | bone=0.0000 | 4.2s
+2026-05-23 12:23:25.803 | INFO     | wisp.training.trainer:run_training:142 - epoch   49/60 | total=0.0255 | rec=0.0184 | pos=0.0063 | vel=0.0018 | bone=0.0000 | 4.2s
+2026-05-23 12:23:30.003 | INFO     | wisp.training.trainer:run_training:142 - epoch   50/60 | total=0.0247 | rec=0.0177 | pos=0.0061 | vel=0.0019 | bone=0.0000 | 4.2s
+2026-05-23 12:23:30.185 | INFO     | wisp.training.trainer:run_training:162 - checkpoint saved (epoch 50)
+2026-05-23 12:23:34.388 | INFO     | wisp.training.trainer:run_training:142 - epoch   51/60 | total=0.0245 | rec=0.0176 | pos=0.0060 | vel=0.0018 | bone=0.0000 | 4.2s
+2026-05-23 12:23:38.588 | INFO     | wisp.training.trainer:run_training:142 - epoch   52/60 | total=0.0246 | rec=0.0178 | pos=0.0060 | vel=0.0017 | bone=0.0000 | 4.2s
+2026-05-23 12:23:42.800 | INFO     | wisp.training.trainer:run_training:142 - epoch   53/60 | total=0.0245 | rec=0.0177 | pos=0.0060 | vel=0.0018 | bone=0.0000 | 4.2s
+2026-05-23 12:23:47.002 | INFO     | wisp.training.trainer:run_training:142 - epoch   54/60 | total=0.0241 | rec=0.0173 | pos=0.0059 | vel=0.0017 | bone=0.0000 | 4.2s
+2026-05-23 12:23:51.201 | INFO     | wisp.training.trainer:run_training:142 - epoch   55/60 | total=0.0236 | rec=0.0171 | pos=0.0057 | vel=0.0016 | bone=0.0000 | 4.2s
+2026-05-23 12:23:55.401 | INFO     | wisp.training.trainer:run_training:142 - epoch   56/60 | total=0.0239 | rec=0.0173 | pos=0.0058 | vel=0.0016 | bone=0.0000 | 4.2s
+2026-05-23 12:23:59.597 | INFO     | wisp.training.trainer:run_training:142 - epoch   57/60 | total=0.0235 | rec=0.0170 | pos=0.0058 | vel=0.0016 | bone=0.0000 | 4.2s
+2026-05-23 12:24:03.798 | INFO     | wisp.training.trainer:run_training:142 - epoch   58/60 | total=0.0235 | rec=0.0169 | pos=0.0058 | vel=0.0016 | bone=0.0000 | 4.2s
+2026-05-23 12:24:08.012 | INFO     | wisp.training.trainer:run_training:142 - epoch   59/60 | total=0.0232 | rec=0.0168 | pos=0.0056 | vel=0.0016 | bone=0.0000 | 4.2s
+2026-05-23 12:24:12.225 | INFO     | wisp.training.trainer:run_training:142 - epoch   60/60 | total=0.0231 | rec=0.0167 | pos=0.0057 | vel=0.0016 | bone=0.0000 | 4.2s
+2026-05-23 12:24:12.400 | INFO     | wisp.training.trainer:run_training:162 - checkpoint saved (epoch 60)
+2026-05-23 12:51:31.050 | INFO     | wisp.utils.logging:log_environment:50 - torch 2.12.0 | device=mps
+2026-05-23 12:51:31.082 | INFO     | wisp.training.trainer:run_training:53 - dataset: 848 virtual windows across 106 clips
+2026-05-23 12:51:32.497 | INFO     | wisp.training.trainer:run_training:94 - denoiser params: 5.38M
+2026-05-23 12:51:36.958 | INFO     | wisp.training.trainer:run_training:142 - epoch    1/300 | total=0.2946 | rec=0.1921 | pos=0.0828 | vel=0.0394 | bone=0.0000 | 4.5s
+2026-05-23 12:51:41.280 | INFO     | wisp.training.trainer:run_training:142 - epoch    2/300 | total=0.0696 | rec=0.0432 | pos=0.0196 | vel=0.0136 | bone=0.0000 | 4.3s
+2026-05-23 12:51:45.597 | INFO     | wisp.training.trainer:run_training:142 - epoch    3/300 | total=0.0612 | rec=0.0387 | pos=0.0172 | vel=0.0105 | bone=0.0000 | 4.3s
+2026-05-23 12:51:49.928 | INFO     | wisp.training.trainer:run_training:142 - epoch    4/300 | total=0.0585 | rec=0.0373 | pos=0.0166 | vel=0.0093 | bone=0.0000 | 4.3s
+2026-05-23 12:51:54.251 | INFO     | wisp.training.trainer:run_training:142 - epoch    5/300 | total=0.0560 | rec=0.0359 | pos=0.0159 | vel=0.0084 | bone=0.0000 | 4.3s
+2026-05-23 12:51:58.590 | INFO     | wisp.training.trainer:run_training:142 - epoch    6/300 | total=0.0537 | rec=0.0347 | pos=0.0151 | vel=0.0077 | bone=0.0000 | 4.3s
+2026-05-23 12:52:02.934 | INFO     | wisp.training.trainer:run_training:142 - epoch    7/300 | total=0.0530 | rec=0.0344 | pos=0.0147 | vel=0.0076 | bone=0.0000 | 4.3s
+2026-05-23 12:52:07.265 | INFO     | wisp.training.trainer:run_training:142 - epoch    8/300 | total=0.0496 | rec=0.0328 | pos=0.0131 | vel=0.0075 | bone=0.0000 | 4.3s
+2026-05-23 12:52:11.604 | INFO     | wisp.training.trainer:run_training:142 - epoch    9/300 | total=0.0460 | rec=0.0309 | pos=0.0117 | vel=0.0067 | bone=0.0000 | 4.3s
+2026-05-23 12:52:15.936 | INFO     | wisp.training.trainer:run_training:142 - epoch   10/300 | total=0.0451 | rec=0.0301 | pos=0.0115 | vel=0.0071 | bone=0.0000 | 4.3s
+2026-05-23 12:52:20.265 | INFO     | wisp.training.trainer:run_training:142 - epoch   11/300 | total=0.0411 | rec=0.0280 | pos=0.0100 | vel=0.0062 | bone=0.0000 | 4.3s
+2026-05-23 12:52:24.586 | INFO     | wisp.training.trainer:run_training:142 - epoch   12/300 | total=0.0399 | rec=0.0274 | pos=0.0096 | vel=0.0059 | bone=0.0000 | 4.3s
+2026-05-23 12:52:28.911 | INFO     | wisp.training.trainer:run_training:142 - epoch   13/300 | total=0.0381 | rec=0.0261 | pos=0.0091 | vel=0.0056 | bone=0.0000 | 4.3s
+2026-05-23 12:52:33.243 | INFO     | wisp.training.trainer:run_training:142 - epoch   14/300 | total=0.0367 | rec=0.0253 | pos=0.0089 | vel=0.0052 | bone=0.0000 | 4.3s
+2026-05-23 12:52:37.581 | INFO     | wisp.training.trainer:run_training:142 - epoch   15/300 | total=0.0356 | rec=0.0245 | pos=0.0086 | vel=0.0051 | bone=0.0000 | 4.3s
+2026-05-23 12:52:41.923 | INFO     | wisp.training.trainer:run_training:142 - epoch   16/300 | total=0.0359 | rec=0.0249 | pos=0.0086 | vel=0.0046 | bone=0.0000 | 4.3s
+2026-05-23 12:52:46.245 | INFO     | wisp.training.trainer:run_training:142 - epoch   17/300 | total=0.0340 | rec=0.0239 | pos=0.0080 | vel=0.0043 | bone=0.0000 | 4.3s
+2026-05-23 12:52:50.575 | INFO     | wisp.training.trainer:run_training:142 - epoch   18/300 | total=0.0338 | rec=0.0237 | pos=0.0080 | vel=0.0042 | bone=0.0000 | 4.3s
+2026-05-23 12:52:54.925 | INFO     | wisp.training.trainer:run_training:142 - epoch   19/300 | total=0.0326 | rec=0.0229 | pos=0.0077 | vel=0.0040 | bone=0.0000 | 4.3s
+2026-05-23 12:52:59.274 | INFO     | wisp.training.trainer:run_training:142 - epoch   20/300 | total=0.0321 | rec=0.0225 | pos=0.0076 | vel=0.0038 | bone=0.0000 | 4.3s
+2026-05-23 12:53:03.603 | INFO     | wisp.training.trainer:run_training:142 - epoch   21/300 | total=0.0321 | rec=0.0226 | pos=0.0077 | vel=0.0036 | bone=0.0000 | 4.3s
+2026-05-23 12:53:07.951 | INFO     | wisp.training.trainer:run_training:142 - epoch   22/300 | total=0.0312 | rec=0.0219 | pos=0.0075 | vel=0.0036 | bone=0.0000 | 4.3s
+2026-05-23 12:53:12.292 | INFO     | wisp.training.trainer:run_training:142 - epoch   23/300 | total=0.0310 | rec=0.0217 | pos=0.0075 | vel=0.0035 | bone=0.0000 | 4.3s
+2026-05-23 12:53:16.643 | INFO     | wisp.training.trainer:run_training:142 - epoch   24/300 | total=0.0307 | rec=0.0218 | pos=0.0073 | vel=0.0032 | bone=0.0000 | 4.4s
+2026-05-23 12:53:20.983 | INFO     | wisp.training.trainer:run_training:142 - epoch   25/300 | total=0.0302 | rec=0.0213 | pos=0.0073 | vel=0.0032 | bone=0.0000 | 4.3s
+2026-05-23 12:53:21.173 | INFO     | wisp.training.trainer:run_training:162 - checkpoint saved (epoch 25)
+2026-05-23 12:53:25.503 | INFO     | wisp.training.trainer:run_training:142 - epoch   26/300 | total=0.0301 | rec=0.0212 | pos=0.0073 | vel=0.0031 | bone=0.0000 | 4.3s
+2026-05-23 12:53:29.834 | INFO     | wisp.training.trainer:run_training:142 - epoch   27/300 | total=0.0297 | rec=0.0210 | pos=0.0072 | vel=0.0029 | bone=0.0000 | 4.3s
+2026-05-23 12:53:34.158 | INFO     | wisp.training.trainer:run_training:142 - epoch   28/300 | total=0.0298 | rec=0.0210 | pos=0.0073 | vel=0.0029 | bone=0.0000 | 4.3s
+2026-05-23 12:53:38.396 | INFO     | wisp.training.trainer:run_training:142 - epoch   29/300 | total=0.0301 | rec=0.0213 | pos=0.0073 | vel=0.0029 | bone=0.0000 | 4.2s
+2026-05-23 12:53:42.596 | INFO     | wisp.training.trainer:run_training:142 - epoch   30/300 | total=0.0282 | rec=0.0200 | pos=0.0068 | vel=0.0028 | bone=0.0000 | 4.2s
+2026-05-23 12:53:46.823 | INFO     | wisp.training.trainer:run_training:142 - epoch   31/300 | total=0.0287 | rec=0.0204 | pos=0.0070 | vel=0.0028 | bone=0.0000 | 4.2s
+2026-05-23 12:53:51.235 | INFO     | wisp.training.trainer:run_training:142 - epoch   32/300 | total=0.0284 | rec=0.0200 | pos=0.0070 | vel=0.0028 | bone=0.0000 | 4.4s
+2026-05-23 12:53:55.472 | INFO     | wisp.training.trainer:run_training:142 - epoch   33/300 | total=0.0278 | rec=0.0198 | pos=0.0067 | vel=0.0026 | bone=0.0000 | 4.2s
+2026-05-23 12:53:59.679 | INFO     | wisp.training.trainer:run_training:142 - epoch   34/300 | total=0.0277 | rec=0.0197 | pos=0.0067 | vel=0.0026 | bone=0.0000 | 4.2s
+2026-05-23 12:54:03.886 | INFO     | wisp.training.trainer:run_training:142 - epoch   35/300 | total=0.0270 | rec=0.0192 | pos=0.0066 | vel=0.0024 | bone=0.0000 | 4.2s
+2026-05-23 12:54:08.078 | INFO     | wisp.training.trainer:run_training:142 - epoch   36/300 | total=0.0268 | rec=0.0191 | pos=0.0066 | vel=0.0024 | bone=0.0000 | 4.2s
+2026-05-23 12:54:12.277 | INFO     | wisp.training.trainer:run_training:142 - epoch   37/300 | total=0.0272 | rec=0.0194 | pos=0.0067 | vel=0.0023 | bone=0.0000 | 4.2s
+2026-05-23 12:54:16.468 | INFO     | wisp.training.trainer:run_training:142 - epoch   38/300 | total=0.0270 | rec=0.0193 | pos=0.0066 | vel=0.0023 | bone=0.0000 | 4.2s
+2026-05-23 12:54:20.658 | INFO     | wisp.training.trainer:run_training:142 - epoch   39/300 | total=0.0272 | rec=0.0194 | pos=0.0067 | vel=0.0022 | bone=0.0000 | 4.2s
+2026-05-23 12:54:24.849 | INFO     | wisp.training.trainer:run_training:142 - epoch   40/300 | total=0.0269 | rec=0.0192 | pos=0.0066 | vel=0.0021 | bone=0.0000 | 4.2s
+2026-05-23 12:54:29.042 | INFO     | wisp.training.trainer:run_training:142 - epoch   41/300 | total=0.0269 | rec=0.0193 | pos=0.0065 | vel=0.0022 | bone=0.0000 | 4.2s
+2026-05-23 12:54:33.236 | INFO     | wisp.training.trainer:run_training:142 - epoch   42/300 | total=0.0258 | rec=0.0185 | pos=0.0063 | vel=0.0020 | bone=0.0000 | 4.2s
+2026-05-23 12:54:37.425 | INFO     | wisp.training.trainer:run_training:142 - epoch   43/300 | total=0.0260 | rec=0.0186 | pos=0.0064 | vel=0.0021 | bone=0.0000 | 4.2s
+2026-05-23 12:54:41.619 | INFO     | wisp.training.trainer:run_training:142 - epoch   44/300 | total=0.0250 | rec=0.0179 | pos=0.0061 | vel=0.0019 | bone=0.0000 | 4.2s
+2026-05-23 12:54:45.809 | INFO     | wisp.training.trainer:run_training:142 - epoch   45/300 | total=0.0264 | rec=0.0189 | pos=0.0065 | vel=0.0021 | bone=0.0000 | 4.2s
+2026-05-23 12:54:50.005 | INFO     | wisp.training.trainer:run_training:142 - epoch   46/300 | total=0.0254 | rec=0.0183 | pos=0.0062 | vel=0.0019 | bone=0.0000 | 4.2s
+2026-05-23 12:54:54.195 | INFO     | wisp.training.trainer:run_training:142 - epoch   47/300 | total=0.0253 | rec=0.0181 | pos=0.0062 | vel=0.0019 | bone=0.0000 | 4.2s
+2026-05-23 12:54:58.399 | INFO     | wisp.training.trainer:run_training:142 - epoch   48/300 | total=0.0251 | rec=0.0178 | pos=0.0063 | vel=0.0021 | bone=0.0000 | 4.2s
+2026-05-23 12:55:02.597 | INFO     | wisp.training.trainer:run_training:142 - epoch   49/300 | total=0.0245 | rec=0.0176 | pos=0.0060 | vel=0.0018 | bone=0.0000 | 4.2s
+2026-05-23 12:55:06.806 | INFO     | wisp.training.trainer:run_training:142 - epoch   50/300 | total=0.0249 | rec=0.0179 | pos=0.0061 | vel=0.0018 | bone=0.0000 | 4.2s
+2026-05-23 12:55:06.986 | INFO     | wisp.training.trainer:run_training:162 - checkpoint saved (epoch 50)
+2026-05-23 12:55:11.182 | INFO     | wisp.training.trainer:run_training:142 - epoch   51/300 | total=0.0249 | rec=0.0180 | pos=0.0061 | vel=0.0018 | bone=0.0000 | 4.2s
+2026-05-23 12:55:15.379 | INFO     | wisp.training.trainer:run_training:142 - epoch   52/300 | total=0.0249 | rec=0.0179 | pos=0.0061 | vel=0.0019 | bone=0.0000 | 4.2s
+2026-05-23 12:55:19.580 | INFO     | wisp.training.trainer:run_training:142 - epoch   53/300 | total=0.0244 | rec=0.0175 | pos=0.0060 | vel=0.0018 | bone=0.0000 | 4.2s
+2026-05-23 12:55:23.780 | INFO     | wisp.training.trainer:run_training:142 - epoch   54/300 | total=0.0236 | rec=0.0169 | pos=0.0058 | vel=0.0017 | bone=0.0000 | 4.2s
+2026-05-23 12:55:27.975 | INFO     | wisp.training.trainer:run_training:142 - epoch   55/300 | total=0.0242 | rec=0.0173 | pos=0.0060 | vel=0.0017 | bone=0.0000 | 4.2s
+2026-05-23 12:55:32.172 | INFO     | wisp.training.trainer:run_training:142 - epoch   56/300 | total=0.0235 | rec=0.0169 | pos=0.0057 | vel=0.0017 | bone=0.0000 | 4.2s
+2026-05-23 12:55:36.370 | INFO     | wisp.training.trainer:run_training:142 - epoch   57/300 | total=0.0240 | rec=0.0173 | pos=0.0059 | vel=0.0017 | bone=0.0000 | 4.2s
+2026-05-23 12:55:40.569 | INFO     | wisp.training.trainer:run_training:142 - epoch   58/300 | total=0.0235 | rec=0.0169 | pos=0.0058 | vel=0.0018 | bone=0.0000 | 4.2s
+2026-05-23 12:55:44.768 | INFO     | wisp.training.trainer:run_training:142 - epoch   59/300 | total=0.0231 | rec=0.0167 | pos=0.0056 | vel=0.0015 | bone=0.0000 | 4.2s
+2026-05-23 12:55:48.964 | INFO     | wisp.training.trainer:run_training:142 - epoch   60/300 | total=0.0227 | rec=0.0163 | pos=0.0055 | vel=0.0016 | bone=0.0000 | 4.2s
+2026-05-23 12:55:53.167 | INFO     | wisp.training.trainer:run_training:142 - epoch   61/300 | total=0.0241 | rec=0.0173 | pos=0.0059 | vel=0.0016 | bone=0.0000 | 4.2s
+2026-05-23 12:55:57.374 | INFO     | wisp.training.trainer:run_training:142 - epoch   62/300 | total=0.0224 | rec=0.0162 | pos=0.0055 | vel=0.0016 | bone=0.0000 | 4.2s
+2026-05-23 12:56:01.571 | INFO     | wisp.training.trainer:run_training:142 - epoch   63/300 | total=0.0227 | rec=0.0164 | pos=0.0056 | vel=0.0015 | bone=0.0000 | 4.2s
+2026-05-23 12:56:05.772 | INFO     | wisp.training.trainer:run_training:142 - epoch   64/300 | total=0.0223 | rec=0.0161 | pos=0.0055 | vel=0.0015 | bone=0.0000 | 4.2s
+2026-05-23 12:56:09.974 | INFO     | wisp.training.trainer:run_training:142 - epoch   65/300 | total=0.0223 | rec=0.0161 | pos=0.0055 | vel=0.0016 | bone=0.0000 | 4.2s
+2026-05-23 12:56:14.188 | INFO     | wisp.training.trainer:run_training:142 - epoch   66/300 | total=0.0223 | rec=0.0160 | pos=0.0055 | vel=0.0015 | bone=0.0000 | 4.2s
+2026-05-23 12:56:18.387 | INFO     | wisp.training.trainer:run_training:142 - epoch   67/300 | total=0.0218 | rec=0.0157 | pos=0.0053 | vel=0.0015 | bone=0.0000 | 4.2s
+2026-05-23 12:56:22.587 | INFO     | wisp.training.trainer:run_training:142 - epoch   68/300 | total=0.0222 | rec=0.0160 | pos=0.0055 | vel=0.0015 | bone=0.0000 | 4.2s
+2026-05-23 12:56:26.793 | INFO     | wisp.training.trainer:run_training:142 - epoch   69/300 | total=0.0222 | rec=0.0159 | pos=0.0055 | vel=0.0015 | bone=0.0000 | 4.2s
+2026-05-23 12:56:31.207 | INFO     | wisp.training.trainer:run_training:142 - epoch   70/300 | total=0.0225 | rec=0.0162 | pos=0.0056 | vel=0.0015 | bone=0.0000 | 4.4s
+2026-05-23 12:56:35.697 | INFO     | wisp.training.trainer:run_training:142 - epoch   71/300 | total=0.0218 | rec=0.0157 | pos=0.0054 | vel=0.0015 | bone=0.0000 | 4.5s
+2026-05-23 12:56:40.080 | INFO     | wisp.training.trainer:run_training:142 - epoch   72/300 | total=0.0217 | rec=0.0158 | pos=0.0053 | vel=0.0014 | bone=0.0000 | 4.4s
+2026-05-23 12:56:44.497 | INFO     | wisp.training.trainer:run_training:142 - epoch   73/300 | total=0.0212 | rec=0.0152 | pos=0.0053 | vel=0.0014 | bone=0.0000 | 4.4s
+2026-05-23 12:56:48.815 | INFO     | wisp.training.trainer:run_training:142 - epoch   74/300 | total=0.0210 | rec=0.0151 | pos=0.0052 | vel=0.0014 | bone=0.0000 | 4.3s
+2026-05-23 12:56:53.149 | INFO     | wisp.training.trainer:run_training:142 - epoch   75/300 | total=0.0203 | rec=0.0147 | pos=0.0049 | vel=0.0014 | bone=0.0000 | 4.3s
+2026-05-23 12:56:53.337 | INFO     | wisp.training.trainer:run_training:162 - checkpoint saved (epoch 75)
+2026-05-23 12:56:57.656 | INFO     | wisp.training.trainer:run_training:142 - epoch   76/300 | total=0.0209 | rec=0.0152 | pos=0.0050 | vel=0.0014 | bone=0.0000 | 4.3s
+2026-05-23 12:57:01.961 | INFO     | wisp.training.trainer:run_training:142 - epoch   77/300 | total=0.0206 | rec=0.0149 | pos=0.0050 | vel=0.0013 | bone=0.0000 | 4.3s
+2026-05-23 12:57:06.273 | INFO     | wisp.training.trainer:run_training:142 - epoch   78/300 | total=0.0201 | rec=0.0147 | pos=0.0048 | vel=0.0013 | bone=0.0000 | 4.3s
+2026-05-23 12:57:10.494 | INFO     | wisp.training.trainer:run_training:142 - epoch   79/300 | total=0.0209 | rec=0.0153 | pos=0.0050 | vel=0.0013 | bone=0.0000 | 4.2s
+2026-05-23 12:57:14.703 | INFO     | wisp.training.trainer:run_training:142 - epoch   80/300 | total=0.0204 | rec=0.0148 | pos=0.0050 | vel=0.0013 | bone=0.0000 | 4.2s
+2026-05-23 12:57:18.902 | INFO     | wisp.training.trainer:run_training:142 - epoch   81/300 | total=0.0206 | rec=0.0150 | pos=0.0051 | vel=0.0012 | bone=0.0000 | 4.2s
+2026-05-23 12:57:23.102 | INFO     | wisp.training.trainer:run_training:142 - epoch   82/300 | total=0.0196 | rec=0.0142 | pos=0.0047 | vel=0.0013 | bone=0.0000 | 4.2s
+2026-05-23 12:57:27.304 | INFO     | wisp.training.trainer:run_training:142 - epoch   83/300 | total=0.0193 | rec=0.0140 | pos=0.0046 | vel=0.0012 | bone=0.0000 | 4.2s
+2026-05-23 12:57:31.499 | INFO     | wisp.training.trainer:run_training:142 - epoch   84/300 | total=0.0200 | rec=0.0146 | pos=0.0048 | vel=0.0012 | bone=0.0000 | 4.2s
+2026-05-23 12:57:35.697 | INFO     | wisp.training.trainer:run_training:142 - epoch   85/300 | total=0.0199 | rec=0.0145 | pos=0.0048 | vel=0.0012 | bone=0.0000 | 4.2s
+2026-05-23 12:57:39.899 | INFO     | wisp.training.trainer:run_training:142 - epoch   86/300 | total=0.0191 | rec=0.0139 | pos=0.0046 | vel=0.0012 | bone=0.0000 | 4.2s
+2026-05-23 12:57:44.099 | INFO     | wisp.training.trainer:run_training:142 - epoch   87/300 | total=0.0201 | rec=0.0146 | pos=0.0049 | vel=0.0012 | bone=0.0000 | 4.2s
+2026-05-23 12:57:48.301 | INFO     | wisp.training.trainer:run_training:142 - epoch   88/300 | total=0.0196 | rec=0.0143 | pos=0.0047 | vel=0.0011 | bone=0.0000 | 4.2s
+2026-05-23 12:57:52.501 | INFO     | wisp.training.trainer:run_training:142 - epoch   89/300 | total=0.0202 | rec=0.0147 | pos=0.0049 | vel=0.0012 | bone=0.0000 | 4.2s
+2026-05-23 12:57:56.703 | INFO     | wisp.training.trainer:run_training:142 - epoch   90/300 | total=0.0193 | rec=0.0141 | pos=0.0046 | vel=0.0012 | bone=0.0000 | 4.2s
+2026-05-23 12:58:00.903 | INFO     | wisp.training.trainer:run_training:142 - epoch   91/300 | total=0.0197 | rec=0.0143 | pos=0.0048 | vel=0.0011 | bone=0.0000 | 4.2s
+2026-05-23 12:58:05.100 | INFO     | wisp.training.trainer:run_training:142 - epoch   92/300 | total=0.0189 | rec=0.0137 | pos=0.0047 | vel=0.0011 | bone=0.0000 | 4.2s
+2026-05-23 12:58:09.313 | INFO     | wisp.training.trainer:run_training:142 - epoch   93/300 | total=0.0189 | rec=0.0138 | pos=0.0046 | vel=0.0011 | bone=0.0000 | 4.2s
+2026-05-23 12:58:13.509 | INFO     | wisp.training.trainer:run_training:142 - epoch   94/300 | total=0.0186 | rec=0.0136 | pos=0.0044 | vel=0.0011 | bone=0.0000 | 4.2s
+2026-05-23 12:58:17.719 | INFO     | wisp.training.trainer:run_training:142 - epoch   95/300 | total=0.0186 | rec=0.0136 | pos=0.0045 | vel=0.0010 | bone=0.0000 | 4.2s
+2026-05-23 12:58:21.923 | INFO     | wisp.training.trainer:run_training:142 - epoch   96/300 | total=0.0185 | rec=0.0135 | pos=0.0044 | vel=0.0011 | bone=0.0000 | 4.2s
+2026-05-23 12:58:26.121 | INFO     | wisp.training.trainer:run_training:142 - epoch   97/300 | total=0.0187 | rec=0.0137 | pos=0.0045 | vel=0.0010 | bone=0.0000 | 4.2s
+2026-05-23 12:58:30.317 | INFO     | wisp.training.trainer:run_training:142 - epoch   98/300 | total=0.0188 | rec=0.0136 | pos=0.0047 | vel=0.0010 | bone=0.0000 | 4.2s
+2026-05-23 12:58:34.514 | INFO     | wisp.training.trainer:run_training:142 - epoch   99/300 | total=0.0188 | rec=0.0137 | pos=0.0046 | vel=0.0010 | bone=0.0000 | 4.2s
+2026-05-23 12:58:38.711 | INFO     | wisp.training.trainer:run_training:142 - epoch  100/300 | total=0.0186 | rec=0.0135 | pos=0.0046 | vel=0.0010 | bone=0.0000 | 4.2s
+2026-05-23 12:58:38.892 | INFO     | wisp.training.trainer:run_training:162 - checkpoint saved (epoch 100)
+2026-05-23 12:58:43.088 | INFO     | wisp.training.trainer:run_training:142 - epoch  101/300 | total=0.0190 | rec=0.0138 | pos=0.0047 | vel=0.0010 | bone=0.0000 | 4.2s
+2026-05-23 12:58:47.284 | INFO     | wisp.training.trainer:run_training:142 - epoch  102/300 | total=0.0182 | rec=0.0133 | pos=0.0044 | vel=0.0010 | bone=0.0000 | 4.2s
+2026-05-23 12:58:51.483 | INFO     | wisp.training.trainer:run_training:142 - epoch  103/300 | total=0.0188 | rec=0.0138 | pos=0.0045 | vel=0.0010 | bone=0.0000 | 4.2s
+2026-05-23 12:58:55.681 | INFO     | wisp.training.trainer:run_training:142 - epoch  104/300 | total=0.0179 | rec=0.0131 | pos=0.0044 | vel=0.0010 | bone=0.0000 | 4.2s
+2026-05-23 12:58:59.879 | INFO     | wisp.training.trainer:run_training:142 - epoch  105/300 | total=0.0184 | rec=0.0135 | pos=0.0045 | vel=0.0010 | bone=0.0000 | 4.2s
+2026-05-23 12:59:04.080 | INFO     | wisp.training.trainer:run_training:142 - epoch  106/300 | total=0.0179 | rec=0.0131 | pos=0.0044 | vel=0.0009 | bone=0.0000 | 4.2s
+2026-05-23 12:59:08.288 | INFO     | wisp.training.trainer:run_training:142 - epoch  107/300 | total=0.0188 | rec=0.0137 | pos=0.0047 | vel=0.0010 | bone=0.0000 | 4.2s
+2026-05-23 12:59:12.629 | INFO     | wisp.training.trainer:run_training:142 - epoch  108/300 | total=0.0185 | rec=0.0135 | pos=0.0045 | vel=0.0010 | bone=0.0000 | 4.3s
+2026-05-23 12:59:17.066 | INFO     | wisp.training.trainer:run_training:142 - epoch  109/300 | total=0.0183 | rec=0.0133 | pos=0.0045 | vel=0.0009 | bone=0.0000 | 4.4s
+2026-05-23 12:59:21.501 | INFO     | wisp.training.trainer:run_training:142 - epoch  110/300 | total=0.0180 | rec=0.0131 | pos=0.0044 | vel=0.0009 | bone=0.0000 | 4.4s
+2026-05-23 12:59:26.056 | INFO     | wisp.training.trainer:run_training:142 - epoch  111/300 | total=0.0179 | rec=0.0131 | pos=0.0043 | vel=0.0009 | bone=0.0000 | 4.6s
+2026-05-23 12:59:30.486 | INFO     | wisp.training.trainer:run_training:142 - epoch  112/300 | total=0.0190 | rec=0.0139 | pos=0.0047 | vel=0.0009 | bone=0.0000 | 4.4s
+2026-05-23 12:59:34.707 | INFO     | wisp.training.trainer:run_training:142 - epoch  113/300 | total=0.0187 | rec=0.0136 | pos=0.0047 | vel=0.0009 | bone=0.0000 | 4.2s
+2026-05-23 12:59:39.009 | INFO     | wisp.training.trainer:run_training:142 - epoch  114/300 | total=0.0180 | rec=0.0131 | pos=0.0044 | vel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 12:59:43.317 | INFO     | wisp.training.trainer:run_training:142 - epoch  115/300 | total=0.0172 | rec=0.0125 | pos=0.0042 | vel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 12:59:47.659 | INFO     | wisp.training.trainer:run_training:142 - epoch  116/300 | total=0.0181 | rec=0.0131 | pos=0.0045 | vel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 12:59:52.018 | INFO     | wisp.training.trainer:run_training:142 - epoch  117/300 | total=0.0178 | rec=0.0131 | pos=0.0043 | vel=0.0009 | bone=0.0000 | 4.4s
+2026-05-23 12:59:56.367 | INFO     | wisp.training.trainer:run_training:142 - epoch  118/300 | total=0.0173 | rec=0.0127 | pos=0.0042 | vel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 13:00:00.663 | INFO     | wisp.training.trainer:run_training:142 - epoch  119/300 | total=0.0171 | rec=0.0126 | pos=0.0041 | vel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 13:00:04.985 | INFO     | wisp.training.trainer:run_training:142 - epoch  120/300 | total=0.0178 | rec=0.0130 | pos=0.0045 | vel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 13:00:09.298 | INFO     | wisp.training.trainer:run_training:142 - epoch  121/300 | total=0.0180 | rec=0.0131 | pos=0.0044 | vel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 13:00:13.522 | INFO     | wisp.training.trainer:run_training:142 - epoch  122/300 | total=0.0180 | rec=0.0131 | pos=0.0044 | vel=0.0009 | bone=0.0000 | 4.2s
+2026-05-23 13:00:17.743 | INFO     | wisp.training.trainer:run_training:142 - epoch  123/300 | total=0.0171 | rec=0.0125 | pos=0.0041 | vel=0.0008 | bone=0.0000 | 4.2s
+2026-05-23 13:00:21.981 | INFO     | wisp.training.trainer:run_training:142 - epoch  124/300 | total=0.0173 | rec=0.0127 | pos=0.0042 | vel=0.0009 | bone=0.0000 | 4.2s
+2026-05-23 13:00:26.194 | INFO     | wisp.training.trainer:run_training:142 - epoch  125/300 | total=0.0174 | rec=0.0127 | pos=0.0043 | vel=0.0008 | bone=0.0000 | 4.2s
+2026-05-23 13:00:26.373 | INFO     | wisp.training.trainer:run_training:162 - checkpoint saved (epoch 125)
+2026-05-23 13:00:30.665 | INFO     | wisp.training.trainer:run_training:142 - epoch  126/300 | total=0.0174 | rec=0.0128 | pos=0.0042 | vel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 13:00:35.013 | INFO     | wisp.training.trainer:run_training:142 - epoch  127/300 | total=0.0182 | rec=0.0132 | pos=0.0046 | vel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 13:00:39.356 | INFO     | wisp.training.trainer:run_training:142 - epoch  128/300 | total=0.0171 | rec=0.0125 | pos=0.0041 | vel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 13:00:43.672 | INFO     | wisp.training.trainer:run_training:142 - epoch  129/300 | total=0.0172 | rec=0.0125 | pos=0.0043 | vel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 13:00:47.956 | INFO     | wisp.training.trainer:run_training:142 - epoch  130/300 | total=0.0167 | rec=0.0122 | pos=0.0041 | vel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 13:00:52.313 | INFO     | wisp.training.trainer:run_training:142 - epoch  131/300 | total=0.0169 | rec=0.0123 | pos=0.0042 | vel=0.0008 | bone=0.0000 | 4.4s
+2026-05-23 13:00:56.646 | INFO     | wisp.training.trainer:run_training:142 - epoch  132/300 | total=0.0164 | rec=0.0120 | pos=0.0040 | vel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 13:01:01.025 | INFO     | wisp.training.trainer:run_training:142 - epoch  133/300 | total=0.0167 | rec=0.0121 | pos=0.0041 | vel=0.0008 | bone=0.0000 | 4.4s
+2026-05-23 13:01:05.458 | INFO     | wisp.training.trainer:run_training:142 - epoch  134/300 | total=0.0174 | rec=0.0127 | pos=0.0043 | vel=0.0008 | bone=0.0000 | 4.4s
+2026-05-23 13:01:09.788 | INFO     | wisp.training.trainer:run_training:142 - epoch  135/300 | total=0.0170 | rec=0.0123 | pos=0.0042 | vel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 13:01:14.010 | INFO     | wisp.training.trainer:run_training:142 - epoch  136/300 | total=0.0168 | rec=0.0123 | pos=0.0041 | vel=0.0008 | bone=0.0000 | 4.2s
+2026-05-23 13:01:18.328 | INFO     | wisp.training.trainer:run_training:142 - epoch  137/300 | total=0.0167 | rec=0.0121 | pos=0.0042 | vel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 13:01:22.681 | INFO     | wisp.training.trainer:run_training:142 - epoch  138/300 | total=0.0161 | rec=0.0118 | pos=0.0039 | vel=0.0008 | bone=0.0000 | 4.4s
+2026-05-23 13:01:26.948 | INFO     | wisp.training.trainer:run_training:142 - epoch  139/300 | total=0.0161 | rec=0.0117 | pos=0.0039 | vel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 13:01:31.206 | INFO     | wisp.training.trainer:run_training:142 - epoch  140/300 | total=0.0160 | rec=0.0117 | pos=0.0039 | vel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 13:01:35.449 | INFO     | wisp.training.trainer:run_training:142 - epoch  141/300 | total=0.0169 | rec=0.0123 | pos=0.0042 | vel=0.0008 | bone=0.0000 | 4.2s
+2026-05-23 13:01:39.704 | INFO     | wisp.training.trainer:run_training:142 - epoch  142/300 | total=0.0164 | rec=0.0119 | pos=0.0041 | vel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 13:01:43.925 | INFO     | wisp.training.trainer:run_training:142 - epoch  143/300 | total=0.0162 | rec=0.0118 | pos=0.0040 | vel=0.0008 | bone=0.0000 | 4.2s
+2026-05-23 13:01:48.143 | INFO     | wisp.training.trainer:run_training:142 - epoch  144/300 | total=0.0170 | rec=0.0123 | pos=0.0043 | vel=0.0008 | bone=0.0000 | 4.2s
+2026-05-23 13:01:52.390 | INFO     | wisp.training.trainer:run_training:142 - epoch  145/300 | total=0.0166 | rec=0.0122 | pos=0.0040 | vel=0.0008 | bone=0.0000 | 4.2s
+2026-05-23 13:01:56.607 | INFO     | wisp.training.trainer:run_training:142 - epoch  146/300 | total=0.0164 | rec=0.0120 | pos=0.0040 | vel=0.0008 | bone=0.0000 | 4.2s
+2026-05-23 13:02:00.907 | INFO     | wisp.training.trainer:run_training:142 - epoch  147/300 | total=0.0166 | rec=0.0122 | pos=0.0040 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:02:05.136 | INFO     | wisp.training.trainer:run_training:142 - epoch  148/300 | total=0.0157 | rec=0.0115 | pos=0.0038 | vel=0.0008 | bone=0.0000 | 4.2s
+2026-05-23 13:02:09.388 | INFO     | wisp.training.trainer:run_training:142 - epoch  149/300 | total=0.0159 | rec=0.0117 | pos=0.0039 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:02:13.627 | INFO     | wisp.training.trainer:run_training:142 - epoch  150/300 | total=0.0159 | rec=0.0116 | pos=0.0039 | vel=0.0007 | bone=0.0000 | 4.2s
+2026-05-23 13:02:13.807 | INFO     | wisp.training.trainer:run_training:162 - checkpoint saved (epoch 150)
+2026-05-23 13:02:18.141 | INFO     | wisp.training.trainer:run_training:142 - epoch  151/300 | total=0.0168 | rec=0.0122 | pos=0.0042 | vel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 13:02:22.736 | INFO     | wisp.training.trainer:run_training:142 - epoch  152/300 | total=0.0165 | rec=0.0121 | pos=0.0040 | vel=0.0008 | bone=0.0000 | 4.6s
+2026-05-23 13:02:27.158 | INFO     | wisp.training.trainer:run_training:142 - epoch  153/300 | total=0.0156 | rec=0.0114 | pos=0.0038 | vel=0.0007 | bone=0.0000 | 4.4s
+2026-05-23 13:02:31.404 | INFO     | wisp.training.trainer:run_training:142 - epoch  154/300 | total=0.0163 | rec=0.0119 | pos=0.0041 | vel=0.0007 | bone=0.0000 | 4.2s
+2026-05-23 13:02:35.660 | INFO     | wisp.training.trainer:run_training:142 - epoch  155/300 | total=0.0162 | rec=0.0118 | pos=0.0040 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:02:39.930 | INFO     | wisp.training.trainer:run_training:142 - epoch  156/300 | total=0.0161 | rec=0.0118 | pos=0.0039 | vel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 13:02:44.195 | INFO     | wisp.training.trainer:run_training:142 - epoch  157/300 | total=0.0164 | rec=0.0120 | pos=0.0040 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:02:48.457 | INFO     | wisp.training.trainer:run_training:142 - epoch  158/300 | total=0.0156 | rec=0.0114 | pos=0.0039 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:02:52.718 | INFO     | wisp.training.trainer:run_training:142 - epoch  159/300 | total=0.0158 | rec=0.0116 | pos=0.0039 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:02:56.977 | INFO     | wisp.training.trainer:run_training:142 - epoch  160/300 | total=0.0165 | rec=0.0120 | pos=0.0042 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:03:01.241 | INFO     | wisp.training.trainer:run_training:142 - epoch  161/300 | total=0.0162 | rec=0.0118 | pos=0.0040 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:03:05.710 | INFO     | wisp.training.trainer:run_training:142 - epoch  162/300 | total=0.0151 | rec=0.0110 | pos=0.0037 | vel=0.0007 | bone=0.0000 | 4.5s
+2026-05-23 13:03:10.188 | INFO     | wisp.training.trainer:run_training:142 - epoch  163/300 | total=0.0166 | rec=0.0121 | pos=0.0042 | vel=0.0008 | bone=0.0000 | 4.5s
+2026-05-23 13:03:14.506 | INFO     | wisp.training.trainer:run_training:142 - epoch  164/300 | total=0.0158 | rec=0.0115 | pos=0.0039 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:03:18.741 | INFO     | wisp.training.trainer:run_training:142 - epoch  165/300 | total=0.0153 | rec=0.0112 | pos=0.0037 | vel=0.0007 | bone=0.0000 | 4.2s
+2026-05-23 13:03:23.041 | INFO     | wisp.training.trainer:run_training:142 - epoch  166/300 | total=0.0165 | rec=0.0120 | pos=0.0041 | vel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 13:03:27.345 | INFO     | wisp.training.trainer:run_training:142 - epoch  167/300 | total=0.0155 | rec=0.0114 | pos=0.0038 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:03:31.589 | INFO     | wisp.training.trainer:run_training:142 - epoch  168/300 | total=0.0163 | rec=0.0119 | pos=0.0040 | vel=0.0007 | bone=0.0000 | 4.2s
+2026-05-23 13:03:35.818 | INFO     | wisp.training.trainer:run_training:142 - epoch  169/300 | total=0.0156 | rec=0.0115 | pos=0.0038 | vel=0.0007 | bone=0.0000 | 4.2s
+2026-05-23 13:03:40.094 | INFO     | wisp.training.trainer:run_training:142 - epoch  170/300 | total=0.0152 | rec=0.0111 | pos=0.0037 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:03:44.387 | INFO     | wisp.training.trainer:run_training:142 - epoch  171/300 | total=0.0160 | rec=0.0117 | pos=0.0040 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:03:48.634 | INFO     | wisp.training.trainer:run_training:142 - epoch  172/300 | total=0.0162 | rec=0.0119 | pos=0.0040 | vel=0.0007 | bone=0.0000 | 4.2s
+2026-05-23 13:03:53.100 | INFO     | wisp.training.trainer:run_training:142 - epoch  173/300 | total=0.0157 | rec=0.0115 | pos=0.0038 | vel=0.0007 | bone=0.0000 | 4.5s
+2026-05-23 13:03:57.377 | INFO     | wisp.training.trainer:run_training:142 - epoch  174/300 | total=0.0149 | rec=0.0108 | pos=0.0037 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:04:01.646 | INFO     | wisp.training.trainer:run_training:142 - epoch  175/300 | total=0.0154 | rec=0.0113 | pos=0.0037 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:04:01.827 | INFO     | wisp.training.trainer:run_training:162 - checkpoint saved (epoch 175)
+2026-05-23 13:04:06.092 | INFO     | wisp.training.trainer:run_training:142 - epoch  176/300 | total=0.0165 | rec=0.0121 | pos=0.0041 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:04:10.594 | INFO     | wisp.training.trainer:run_training:142 - epoch  177/300 | total=0.0172 | rec=0.0126 | pos=0.0042 | vel=0.0007 | bone=0.0000 | 4.5s
+2026-05-23 13:04:15.007 | INFO     | wisp.training.trainer:run_training:142 - epoch  178/300 | total=0.0159 | rec=0.0116 | pos=0.0039 | vel=0.0007 | bone=0.0000 | 4.4s
+2026-05-23 13:04:19.266 | INFO     | wisp.training.trainer:run_training:142 - epoch  179/300 | total=0.0158 | rec=0.0116 | pos=0.0039 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:04:23.569 | INFO     | wisp.training.trainer:run_training:142 - epoch  180/300 | total=0.0159 | rec=0.0116 | pos=0.0040 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:04:27.875 | INFO     | wisp.training.trainer:run_training:142 - epoch  181/300 | total=0.0157 | rec=0.0115 | pos=0.0038 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:04:32.144 | INFO     | wisp.training.trainer:run_training:142 - epoch  182/300 | total=0.0153 | rec=0.0112 | pos=0.0038 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:04:36.406 | INFO     | wisp.training.trainer:run_training:142 - epoch  183/300 | total=0.0150 | rec=0.0110 | pos=0.0036 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:04:40.649 | INFO     | wisp.training.trainer:run_training:142 - epoch  184/300 | total=0.0154 | rec=0.0112 | pos=0.0039 | vel=0.0007 | bone=0.0000 | 4.2s
+2026-05-23 13:04:44.891 | INFO     | wisp.training.trainer:run_training:142 - epoch  185/300 | total=0.0149 | rec=0.0108 | pos=0.0037 | vel=0.0007 | bone=0.0000 | 4.2s
+2026-05-23 13:04:49.163 | INFO     | wisp.training.trainer:run_training:142 - epoch  186/300 | total=0.0151 | rec=0.0111 | pos=0.0037 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:04:53.467 | INFO     | wisp.training.trainer:run_training:142 - epoch  187/300 | total=0.0154 | rec=0.0113 | pos=0.0038 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:04:57.683 | INFO     | wisp.training.trainer:run_training:142 - epoch  188/300 | total=0.0153 | rec=0.0113 | pos=0.0037 | vel=0.0007 | bone=0.0000 | 4.2s
+2026-05-23 13:05:02.129 | INFO     | wisp.training.trainer:run_training:142 - epoch  189/300 | total=0.0147 | rec=0.0108 | pos=0.0036 | vel=0.0007 | bone=0.0000 | 4.4s
+2026-05-23 13:05:06.442 | INFO     | wisp.training.trainer:run_training:142 - epoch  190/300 | total=0.0148 | rec=0.0108 | pos=0.0037 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:05:10.701 | INFO     | wisp.training.trainer:run_training:142 - epoch  191/300 | total=0.0155 | rec=0.0114 | pos=0.0038 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:05:15.026 | INFO     | wisp.training.trainer:run_training:142 - epoch  192/300 | total=0.0152 | rec=0.0110 | pos=0.0038 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:05:19.509 | INFO     | wisp.training.trainer:run_training:142 - epoch  193/300 | total=0.0149 | rec=0.0110 | pos=0.0036 | vel=0.0007 | bone=0.0000 | 4.5s
+2026-05-23 13:05:23.926 | INFO     | wisp.training.trainer:run_training:142 - epoch  194/300 | total=0.0150 | rec=0.0111 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:05:28.212 | INFO     | wisp.training.trainer:run_training:142 - epoch  195/300 | total=0.0144 | rec=0.0106 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:05:32.465 | INFO     | wisp.training.trainer:run_training:142 - epoch  196/300 | total=0.0153 | rec=0.0112 | pos=0.0038 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:05:36.714 | INFO     | wisp.training.trainer:run_training:142 - epoch  197/300 | total=0.0151 | rec=0.0111 | pos=0.0037 | vel=0.0006 | bone=0.0000 | 4.2s
+2026-05-23 13:05:40.985 | INFO     | wisp.training.trainer:run_training:142 - epoch  198/300 | total=0.0151 | rec=0.0110 | pos=0.0038 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:05:45.318 | INFO     | wisp.training.trainer:run_training:142 - epoch  199/300 | total=0.0147 | rec=0.0108 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:05:49.641 | INFO     | wisp.training.trainer:run_training:142 - epoch  200/300 | total=0.0165 | rec=0.0121 | pos=0.0041 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:05:49.819 | INFO     | wisp.training.trainer:run_training:162 - checkpoint saved (epoch 200)
+2026-05-23 13:05:54.254 | INFO     | wisp.training.trainer:run_training:142 - epoch  201/300 | total=0.0161 | rec=0.0117 | pos=0.0040 | vel=0.0007 | bone=0.0000 | 4.4s
+2026-05-23 13:05:58.763 | INFO     | wisp.training.trainer:run_training:142 - epoch  202/300 | total=0.0154 | rec=0.0113 | pos=0.0038 | vel=0.0006 | bone=0.0000 | 4.5s
+2026-05-23 13:06:03.109 | INFO     | wisp.training.trainer:run_training:142 - epoch  203/300 | total=0.0152 | rec=0.0111 | pos=0.0038 | vel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 13:06:07.325 | INFO     | wisp.training.trainer:run_training:142 - epoch  204/300 | total=0.0147 | rec=0.0108 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.2s
+2026-05-23 13:06:11.556 | INFO     | wisp.training.trainer:run_training:142 - epoch  205/300 | total=0.0146 | rec=0.0106 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.2s
+2026-05-23 13:06:15.832 | INFO     | wisp.training.trainer:run_training:142 - epoch  206/300 | total=0.0147 | rec=0.0108 | pos=0.0035 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:06:20.183 | INFO     | wisp.training.trainer:run_training:142 - epoch  207/300 | total=0.0149 | rec=0.0110 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:06:24.425 | INFO     | wisp.training.trainer:run_training:142 - epoch  208/300 | total=0.0150 | rec=0.0110 | pos=0.0037 | vel=0.0006 | bone=0.0000 | 4.2s
+2026-05-23 13:06:28.686 | INFO     | wisp.training.trainer:run_training:142 - epoch  209/300 | total=0.0156 | rec=0.0114 | pos=0.0039 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:06:33.116 | INFO     | wisp.training.trainer:run_training:142 - epoch  210/300 | total=0.0143 | rec=0.0104 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:06:37.489 | INFO     | wisp.training.trainer:run_training:142 - epoch  211/300 | total=0.0144 | rec=0.0105 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:06:41.800 | INFO     | wisp.training.trainer:run_training:142 - epoch  212/300 | total=0.0147 | rec=0.0107 | pos=0.0037 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:06:46.075 | INFO     | wisp.training.trainer:run_training:142 - epoch  213/300 | total=0.0151 | rec=0.0111 | pos=0.0037 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:06:50.475 | INFO     | wisp.training.trainer:run_training:142 - epoch  214/300 | total=0.0139 | rec=0.0102 | pos=0.0034 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:06:54.894 | INFO     | wisp.training.trainer:run_training:142 - epoch  215/300 | total=0.0152 | rec=0.0112 | pos=0.0037 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:06:59.168 | INFO     | wisp.training.trainer:run_training:142 - epoch  216/300 | total=0.0138 | rec=0.0102 | pos=0.0034 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:07:03.676 | INFO     | wisp.training.trainer:run_training:142 - epoch  217/300 | total=0.0145 | rec=0.0106 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.5s
+2026-05-23 13:07:08.107 | INFO     | wisp.training.trainer:run_training:142 - epoch  218/300 | total=0.0148 | rec=0.0108 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:07:12.510 | INFO     | wisp.training.trainer:run_training:142 - epoch  219/300 | total=0.0152 | rec=0.0110 | pos=0.0039 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:07:16.824 | INFO     | wisp.training.trainer:run_training:142 - epoch  220/300 | total=0.0146 | rec=0.0107 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:07:21.072 | INFO     | wisp.training.trainer:run_training:142 - epoch  221/300 | total=0.0148 | rec=0.0109 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.2s
+2026-05-23 13:07:25.541 | INFO     | wisp.training.trainer:run_training:142 - epoch  222/300 | total=0.0144 | rec=0.0105 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.5s
+2026-05-23 13:07:29.968 | INFO     | wisp.training.trainer:run_training:142 - epoch  223/300 | total=0.0144 | rec=0.0106 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:07:34.300 | INFO     | wisp.training.trainer:run_training:142 - epoch  224/300 | total=0.0137 | rec=0.0101 | pos=0.0033 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:07:38.548 | INFO     | wisp.training.trainer:run_training:142 - epoch  225/300 | total=0.0150 | rec=0.0109 | pos=0.0038 | vel=0.0006 | bone=0.0000 | 4.2s
+2026-05-23 13:07:38.728 | INFO     | wisp.training.trainer:run_training:162 - checkpoint saved (epoch 225)
+2026-05-23 13:07:42.998 | INFO     | wisp.training.trainer:run_training:142 - epoch  226/300 | total=0.0141 | rec=0.0104 | pos=0.0035 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:07:47.419 | INFO     | wisp.training.trainer:run_training:142 - epoch  227/300 | total=0.0151 | rec=0.0110 | pos=0.0038 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:07:51.885 | INFO     | wisp.training.trainer:run_training:142 - epoch  228/300 | total=0.0143 | rec=0.0105 | pos=0.0035 | vel=0.0006 | bone=0.0000 | 4.5s
+2026-05-23 13:07:56.344 | INFO     | wisp.training.trainer:run_training:142 - epoch  229/300 | total=0.0146 | rec=0.0107 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.5s
+2026-05-23 13:08:00.776 | INFO     | wisp.training.trainer:run_training:142 - epoch  230/300 | total=0.0142 | rec=0.0104 | pos=0.0035 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:08:05.177 | INFO     | wisp.training.trainer:run_training:142 - epoch  231/300 | total=0.0148 | rec=0.0108 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:08:09.532 | INFO     | wisp.training.trainer:run_training:142 - epoch  232/300 | total=0.0149 | rec=0.0110 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:08:13.915 | INFO     | wisp.training.trainer:run_training:142 - epoch  233/300 | total=0.0145 | rec=0.0107 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:08:18.330 | INFO     | wisp.training.trainer:run_training:142 - epoch  234/300 | total=0.0144 | rec=0.0105 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:08:22.675 | INFO     | wisp.training.trainer:run_training:142 - epoch  235/300 | total=0.0143 | rec=0.0105 | pos=0.0035 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:08:27.030 | INFO     | wisp.training.trainer:run_training:142 - epoch  236/300 | total=0.0143 | rec=0.0104 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:08:31.259 | INFO     | wisp.training.trainer:run_training:142 - epoch  237/300 | total=0.0148 | rec=0.0108 | pos=0.0037 | vel=0.0006 | bone=0.0000 | 4.2s
+2026-05-23 13:08:35.621 | INFO     | wisp.training.trainer:run_training:142 - epoch  238/300 | total=0.0139 | rec=0.0103 | pos=0.0033 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:08:39.952 | INFO     | wisp.training.trainer:run_training:142 - epoch  239/300 | total=0.0130 | rec=0.0097 | pos=0.0031 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:08:44.232 | INFO     | wisp.training.trainer:run_training:142 - epoch  240/300 | total=0.0142 | rec=0.0104 | pos=0.0035 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:08:48.528 | INFO     | wisp.training.trainer:run_training:142 - epoch  241/300 | total=0.0149 | rec=0.0109 | pos=0.0038 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:08:52.958 | INFO     | wisp.training.trainer:run_training:142 - epoch  242/300 | total=0.0136 | rec=0.0100 | pos=0.0033 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:08:57.401 | INFO     | wisp.training.trainer:run_training:142 - epoch  243/300 | total=0.0142 | rec=0.0105 | pos=0.0035 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:09:01.779 | INFO     | wisp.training.trainer:run_training:142 - epoch  244/300 | total=0.0147 | rec=0.0107 | pos=0.0037 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:09:06.110 | INFO     | wisp.training.trainer:run_training:142 - epoch  245/300 | total=0.0139 | rec=0.0103 | pos=0.0034 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:09:10.496 | INFO     | wisp.training.trainer:run_training:142 - epoch  246/300 | total=0.0142 | rec=0.0104 | pos=0.0035 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:09:14.870 | INFO     | wisp.training.trainer:run_training:142 - epoch  247/300 | total=0.0144 | rec=0.0105 | pos=0.0037 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:09:19.315 | INFO     | wisp.training.trainer:run_training:142 - epoch  248/300 | total=0.0142 | rec=0.0104 | pos=0.0035 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:09:23.684 | INFO     | wisp.training.trainer:run_training:142 - epoch  249/300 | total=0.0143 | rec=0.0103 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:09:28.013 | INFO     | wisp.training.trainer:run_training:142 - epoch  250/300 | total=0.0145 | rec=0.0106 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:09:28.208 | INFO     | wisp.training.trainer:run_training:162 - checkpoint saved (epoch 250)
+2026-05-23 13:09:32.652 | INFO     | wisp.training.trainer:run_training:142 - epoch  251/300 | total=0.0138 | rec=0.0101 | pos=0.0034 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:09:37.083 | INFO     | wisp.training.trainer:run_training:142 - epoch  252/300 | total=0.0138 | rec=0.0101 | pos=0.0034 | vel=0.0005 | bone=0.0000 | 4.4s
+2026-05-23 13:09:41.591 | INFO     | wisp.training.trainer:run_training:142 - epoch  253/300 | total=0.0134 | rec=0.0098 | pos=0.0034 | vel=0.0006 | bone=0.0000 | 4.5s
+2026-05-23 13:09:46.037 | INFO     | wisp.training.trainer:run_training:142 - epoch  254/300 | total=0.0137 | rec=0.0101 | pos=0.0033 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:09:50.444 | INFO     | wisp.training.trainer:run_training:142 - epoch  255/300 | total=0.0136 | rec=0.0100 | pos=0.0034 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:09:54.830 | INFO     | wisp.training.trainer:run_training:142 - epoch  256/300 | total=0.0139 | rec=0.0102 | pos=0.0034 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:09:59.180 | INFO     | wisp.training.trainer:run_training:142 - epoch  257/300 | total=0.0139 | rec=0.0102 | pos=0.0034 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:10:03.674 | INFO     | wisp.training.trainer:run_training:142 - epoch  258/300 | total=0.0145 | rec=0.0106 | pos=0.0036 | vel=0.0005 | bone=0.0000 | 4.5s
+2026-05-23 13:10:08.194 | INFO     | wisp.training.trainer:run_training:142 - epoch  259/300 | total=0.0143 | rec=0.0104 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.5s
+2026-05-23 13:10:12.620 | INFO     | wisp.training.trainer:run_training:142 - epoch  260/300 | total=0.0140 | rec=0.0102 | pos=0.0035 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:10:17.006 | INFO     | wisp.training.trainer:run_training:142 - epoch  261/300 | total=0.0137 | rec=0.0100 | pos=0.0034 | vel=0.0005 | bone=0.0000 | 4.4s
+2026-05-23 13:10:21.432 | INFO     | wisp.training.trainer:run_training:142 - epoch  262/300 | total=0.0142 | rec=0.0104 | pos=0.0035 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:10:25.816 | INFO     | wisp.training.trainer:run_training:142 - epoch  263/300 | total=0.0138 | rec=0.0102 | pos=0.0034 | vel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 13:10:30.089 | INFO     | wisp.training.trainer:run_training:142 - epoch  264/300 | total=0.0145 | rec=0.0106 | pos=0.0037 | vel=0.0005 | bone=0.0000 | 4.3s
+2026-05-23 13:10:34.329 | INFO     | wisp.training.trainer:run_training:142 - epoch  265/300 | total=0.0139 | rec=0.0102 | pos=0.0034 | vel=0.0006 | bone=0.0000 | 4.2s
+2026-05-23 13:10:38.547 | INFO     | wisp.training.trainer:run_training:142 - epoch  266/300 | total=0.0140 | rec=0.0103 | pos=0.0034 | vel=0.0006 | bone=0.0000 | 4.2s
+2026-05-23 13:10:42.789 | INFO     | wisp.training.trainer:run_training:142 - epoch  267/300 | total=0.0137 | rec=0.0100 | pos=0.0034 | vel=0.0006 | bone=0.0000 | 4.2s
+2026-05-23 13:10:47.025 | INFO     | wisp.training.trainer:run_training:142 - epoch  268/300 | total=0.0142 | rec=0.0103 | pos=0.0035 | vel=0.0006 | bone=0.0000 | 4.2s
+2026-05-23 13:10:51.295 | INFO     | wisp.training.trainer:run_training:142 - epoch  269/300 | total=0.0143 | rec=0.0105 | pos=0.0035 | vel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 13:10:55.550 | INFO     | wisp.training.trainer:run_training:142 - epoch  270/300 | total=0.0143 | rec=0.0106 | pos=0.0035 | vel=0.0005 | bone=0.0000 | 4.3s
+2026-05-23 13:10:59.847 | INFO     | wisp.training.trainer:run_training:142 - epoch  271/300 | total=0.0131 | rec=0.0096 | pos=0.0032 | vel=0.0005 | bone=0.0000 | 4.3s
+2026-05-23 13:11:04.116 | INFO     | wisp.training.trainer:run_training:142 - epoch  272/300 | total=0.0144 | rec=0.0105 | pos=0.0036 | vel=0.0005 | bone=0.0000 | 4.3s
+2026-05-23 13:11:08.412 | INFO     | wisp.training.trainer:run_training:142 - epoch  273/300 | total=0.0136 | rec=0.0100 | pos=0.0034 | vel=0.0005 | bone=0.0000 | 4.3s
+2026-05-23 13:11:12.629 | INFO     | wisp.training.trainer:run_training:142 - epoch  274/300 | total=0.0147 | rec=0.0108 | pos=0.0036 | vel=0.0006 | bone=0.0000 | 4.2s
+2026-05-23 13:11:16.829 | INFO     | wisp.training.trainer:run_training:142 - epoch  275/300 | total=0.0142 | rec=0.0104 | pos=0.0035 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:11:17.006 | INFO     | wisp.training.trainer:run_training:162 - checkpoint saved (epoch 275)
+2026-05-23 13:11:21.232 | INFO     | wisp.training.trainer:run_training:142 - epoch  276/300 | total=0.0135 | rec=0.0099 | pos=0.0033 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:11:25.448 | INFO     | wisp.training.trainer:run_training:142 - epoch  277/300 | total=0.0137 | rec=0.0102 | pos=0.0033 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:11:29.673 | INFO     | wisp.training.trainer:run_training:142 - epoch  278/300 | total=0.0134 | rec=0.0099 | pos=0.0032 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:11:33.960 | INFO     | wisp.training.trainer:run_training:142 - epoch  279/300 | total=0.0129 | rec=0.0094 | pos=0.0032 | vel=0.0005 | bone=0.0000 | 4.3s
+2026-05-23 13:11:38.230 | INFO     | wisp.training.trainer:run_training:142 - epoch  280/300 | total=0.0137 | rec=0.0100 | pos=0.0034 | vel=0.0005 | bone=0.0000 | 4.3s
+2026-05-23 13:11:42.447 | INFO     | wisp.training.trainer:run_training:142 - epoch  281/300 | total=0.0147 | rec=0.0107 | pos=0.0037 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:11:46.648 | INFO     | wisp.training.trainer:run_training:142 - epoch  282/300 | total=0.0138 | rec=0.0101 | pos=0.0034 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:11:50.882 | INFO     | wisp.training.trainer:run_training:142 - epoch  283/300 | total=0.0134 | rec=0.0099 | pos=0.0033 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:11:55.094 | INFO     | wisp.training.trainer:run_training:142 - epoch  284/300 | total=0.0135 | rec=0.0100 | pos=0.0033 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:11:59.314 | INFO     | wisp.training.trainer:run_training:142 - epoch  285/300 | total=0.0140 | rec=0.0102 | pos=0.0036 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:12:03.518 | INFO     | wisp.training.trainer:run_training:142 - epoch  286/300 | total=0.0133 | rec=0.0096 | pos=0.0034 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:12:07.717 | INFO     | wisp.training.trainer:run_training:142 - epoch  287/300 | total=0.0145 | rec=0.0106 | pos=0.0037 | vel=0.0006 | bone=0.0000 | 4.2s
+2026-05-23 13:12:11.913 | INFO     | wisp.training.trainer:run_training:142 - epoch  288/300 | total=0.0126 | rec=0.0092 | pos=0.0031 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:12:16.115 | INFO     | wisp.training.trainer:run_training:142 - epoch  289/300 | total=0.0139 | rec=0.0102 | pos=0.0035 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:12:20.313 | INFO     | wisp.training.trainer:run_training:142 - epoch  290/300 | total=0.0136 | rec=0.0100 | pos=0.0034 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:12:24.532 | INFO     | wisp.training.trainer:run_training:142 - epoch  291/300 | total=0.0135 | rec=0.0099 | pos=0.0033 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:12:28.731 | INFO     | wisp.training.trainer:run_training:142 - epoch  292/300 | total=0.0140 | rec=0.0102 | pos=0.0036 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:12:32.930 | INFO     | wisp.training.trainer:run_training:142 - epoch  293/300 | total=0.0133 | rec=0.0096 | pos=0.0034 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:12:37.129 | INFO     | wisp.training.trainer:run_training:142 - epoch  294/300 | total=0.0139 | rec=0.0102 | pos=0.0035 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:12:41.329 | INFO     | wisp.training.trainer:run_training:142 - epoch  295/300 | total=0.0139 | rec=0.0102 | pos=0.0034 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:12:45.534 | INFO     | wisp.training.trainer:run_training:142 - epoch  296/300 | total=0.0140 | rec=0.0102 | pos=0.0035 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:12:49.734 | INFO     | wisp.training.trainer:run_training:142 - epoch  297/300 | total=0.0136 | rec=0.0099 | pos=0.0034 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:12:53.929 | INFO     | wisp.training.trainer:run_training:142 - epoch  298/300 | total=0.0134 | rec=0.0099 | pos=0.0033 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:12:58.129 | INFO     | wisp.training.trainer:run_training:142 - epoch  299/300 | total=0.0139 | rec=0.0100 | pos=0.0036 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:13:02.329 | INFO     | wisp.training.trainer:run_training:142 - epoch  300/300 | total=0.0137 | rec=0.0100 | pos=0.0034 | vel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 13:13:02.509 | INFO     | wisp.training.trainer:run_training:162 - checkpoint saved (epoch 300)
+2026-05-23 15:17:10.164 | INFO     | wisp.utils.logging:log_environment:50 - torch 2.12.0 | device=mps
+2026-05-23 15:17:10.216 | INFO     | wisp.training.trainer:run_training:53 - dataset: 848 virtual windows across 106 clips
+2026-05-23 15:17:11.607 | INFO     | wisp.training.trainer:run_training:94 - denoiser params: 5.38M
+2026-05-23 15:17:16.304 | INFO     | wisp.training.trainer:run_training:143 - epoch    1/300 | total=0.4303 | rec=0.2293 | pos=0.0669 | vel=0.0277 | accel=0.0788 | bone=0.0000 | 4.7s
+2026-05-23 15:17:20.746 | INFO     | wisp.training.trainer:run_training:143 - epoch    2/300 | total=0.1029 | rec=0.0480 | pos=0.0167 | vel=0.0079 | accel=0.0224 | bone=0.0000 | 4.4s
+2026-05-23 15:17:25.185 | INFO     | wisp.training.trainer:run_training:143 - epoch    3/300 | total=0.0838 | rec=0.0405 | pos=0.0153 | vel=0.0058 | accel=0.0164 | bone=0.0000 | 4.4s
+2026-05-23 15:17:29.618 | INFO     | wisp.training.trainer:run_training:143 - epoch    4/300 | total=0.0758 | rec=0.0386 | pos=0.0145 | vel=0.0048 | accel=0.0132 | bone=0.0000 | 4.4s
+2026-05-23 15:17:33.957 | INFO     | wisp.training.trainer:run_training:143 - epoch    5/300 | total=0.0710 | rec=0.0378 | pos=0.0141 | vel=0.0040 | accel=0.0110 | bone=0.0000 | 4.3s
+2026-05-23 15:17:38.227 | INFO     | wisp.training.trainer:run_training:143 - epoch    6/300 | total=0.0678 | rec=0.0377 | pos=0.0139 | vel=0.0035 | accel=0.0093 | bone=0.0000 | 4.3s
+2026-05-23 15:17:42.488 | INFO     | wisp.training.trainer:run_training:143 - epoch    7/300 | total=0.0644 | rec=0.0367 | pos=0.0135 | vel=0.0030 | accel=0.0081 | bone=0.0000 | 4.3s
+2026-05-23 15:17:46.764 | INFO     | wisp.training.trainer:run_training:143 - epoch    8/300 | total=0.0615 | rec=0.0360 | pos=0.0131 | vel=0.0027 | accel=0.0070 | bone=0.0000 | 4.3s
+2026-05-23 15:17:51.032 | INFO     | wisp.training.trainer:run_training:143 - epoch    9/300 | total=0.0587 | rec=0.0352 | pos=0.0126 | vel=0.0024 | accel=0.0061 | bone=0.0000 | 4.3s
+2026-05-23 15:17:55.300 | INFO     | wisp.training.trainer:run_training:143 - epoch   10/300 | total=0.0571 | rec=0.0346 | pos=0.0124 | vel=0.0022 | accel=0.0056 | bone=0.0000 | 4.3s
+2026-05-23 15:17:59.569 | INFO     | wisp.training.trainer:run_training:143 - epoch   11/300 | total=0.0538 | rec=0.0332 | pos=0.0112 | vel=0.0021 | accel=0.0052 | bone=0.0000 | 4.3s
+2026-05-23 15:18:03.841 | INFO     | wisp.training.trainer:run_training:143 - epoch   12/300 | total=0.0509 | rec=0.0317 | pos=0.0106 | vel=0.0019 | accel=0.0047 | bone=0.0000 | 4.3s
+2026-05-23 15:18:08.109 | INFO     | wisp.training.trainer:run_training:143 - epoch   13/300 | total=0.0491 | rec=0.0309 | pos=0.0102 | vel=0.0018 | accel=0.0044 | bone=0.0000 | 4.3s
+2026-05-23 15:18:12.374 | INFO     | wisp.training.trainer:run_training:143 - epoch   14/300 | total=0.0474 | rec=0.0302 | pos=0.0098 | vel=0.0017 | accel=0.0041 | bone=0.0000 | 4.3s
+2026-05-23 15:18:16.642 | INFO     | wisp.training.trainer:run_training:143 - epoch   15/300 | total=0.0482 | rec=0.0308 | pos=0.0102 | vel=0.0016 | accel=0.0039 | bone=0.0000 | 4.3s
+2026-05-23 15:18:20.924 | INFO     | wisp.training.trainer:run_training:143 - epoch   16/300 | total=0.0486 | rec=0.0313 | pos=0.0106 | vel=0.0015 | accel=0.0036 | bone=0.0000 | 4.3s
+2026-05-23 15:18:25.189 | INFO     | wisp.training.trainer:run_training:143 - epoch   17/300 | total=0.0452 | rec=0.0293 | pos=0.0096 | vel=0.0015 | accel=0.0034 | bone=0.0000 | 4.3s
+2026-05-23 15:18:29.487 | INFO     | wisp.training.trainer:run_training:143 - epoch   18/300 | total=0.0445 | rec=0.0290 | pos=0.0095 | vel=0.0014 | accel=0.0031 | bone=0.0000 | 4.3s
+2026-05-23 15:18:33.763 | INFO     | wisp.training.trainer:run_training:143 - epoch   19/300 | total=0.0439 | rec=0.0287 | pos=0.0095 | vel=0.0013 | accel=0.0030 | bone=0.0000 | 4.3s
+2026-05-23 15:18:38.040 | INFO     | wisp.training.trainer:run_training:143 - epoch   20/300 | total=0.0445 | rec=0.0292 | pos=0.0096 | vel=0.0014 | accel=0.0030 | bone=0.0000 | 4.3s
+2026-05-23 15:18:42.309 | INFO     | wisp.training.trainer:run_training:143 - epoch   21/300 | total=0.0434 | rec=0.0285 | pos=0.0096 | vel=0.0013 | accel=0.0027 | bone=0.0000 | 4.3s
+2026-05-23 15:18:46.583 | INFO     | wisp.training.trainer:run_training:143 - epoch   22/300 | total=0.0442 | rec=0.0292 | pos=0.0097 | vel=0.0013 | accel=0.0028 | bone=0.0000 | 4.3s
+2026-05-23 15:18:50.867 | INFO     | wisp.training.trainer:run_training:143 - epoch   23/300 | total=0.0440 | rec=0.0288 | pos=0.0099 | vel=0.0013 | accel=0.0027 | bone=0.0000 | 4.3s
+2026-05-23 15:18:55.160 | INFO     | wisp.training.trainer:run_training:143 - epoch   24/300 | total=0.0422 | rec=0.0274 | pos=0.0091 | vel=0.0014 | accel=0.0030 | bone=0.0000 | 4.3s
+2026-05-23 15:18:59.438 | INFO     | wisp.training.trainer:run_training:143 - epoch   25/300 | total=0.0390 | rec=0.0255 | pos=0.0084 | vel=0.0012 | accel=0.0027 | bone=0.0000 | 4.3s
+2026-05-23 15:18:59.622 | INFO     | wisp.training.trainer:run_training:163 - checkpoint saved (epoch 25)
+2026-05-23 15:19:03.903 | INFO     | wisp.training.trainer:run_training:143 - epoch   26/300 | total=0.0433 | rec=0.0272 | pos=0.0093 | vel=0.0016 | accel=0.0036 | bone=0.0000 | 4.3s
+2026-05-23 15:19:08.178 | INFO     | wisp.training.trainer:run_training:143 - epoch   27/300 | total=0.0411 | rec=0.0263 | pos=0.0086 | vel=0.0014 | accel=0.0033 | bone=0.0000 | 4.3s
+2026-05-23 15:19:12.451 | INFO     | wisp.training.trainer:run_training:143 - epoch   28/300 | total=0.0385 | rec=0.0239 | pos=0.0079 | vel=0.0015 | accel=0.0036 | bone=0.0000 | 4.3s
+2026-05-23 15:19:16.727 | INFO     | wisp.training.trainer:run_training:143 - epoch   29/300 | total=0.0377 | rec=0.0246 | pos=0.0078 | vel=0.0013 | accel=0.0028 | bone=0.0000 | 4.3s
+2026-05-23 15:19:21.020 | INFO     | wisp.training.trainer:run_training:143 - epoch   30/300 | total=0.0349 | rec=0.0228 | pos=0.0072 | vel=0.0012 | accel=0.0026 | bone=0.0000 | 4.3s
+2026-05-23 15:19:25.300 | INFO     | wisp.training.trainer:run_training:143 - epoch   31/300 | total=0.0341 | rec=0.0224 | pos=0.0071 | vel=0.0011 | accel=0.0023 | bone=0.0000 | 4.3s
+2026-05-23 15:19:29.578 | INFO     | wisp.training.trainer:run_training:143 - epoch   32/300 | total=0.0345 | rec=0.0225 | pos=0.0073 | vel=0.0011 | accel=0.0024 | bone=0.0000 | 4.3s
+2026-05-23 15:19:33.866 | INFO     | wisp.training.trainer:run_training:143 - epoch   33/300 | total=0.0347 | rec=0.0230 | pos=0.0073 | vel=0.0011 | accel=0.0023 | bone=0.0000 | 4.3s
+2026-05-23 15:19:38.143 | INFO     | wisp.training.trainer:run_training:143 - epoch   34/300 | total=0.0352 | rec=0.0229 | pos=0.0076 | vel=0.0011 | accel=0.0024 | bone=0.0000 | 4.3s
+2026-05-23 15:19:42.424 | INFO     | wisp.training.trainer:run_training:143 - epoch   35/300 | total=0.0343 | rec=0.0226 | pos=0.0074 | vel=0.0011 | accel=0.0022 | bone=0.0000 | 4.3s
+2026-05-23 15:19:46.703 | INFO     | wisp.training.trainer:run_training:143 - epoch   36/300 | total=0.0349 | rec=0.0230 | pos=0.0075 | vel=0.0011 | accel=0.0022 | bone=0.0000 | 4.3s
+2026-05-23 15:19:50.981 | INFO     | wisp.training.trainer:run_training:143 - epoch   37/300 | total=0.0341 | rec=0.0224 | pos=0.0074 | vel=0.0011 | accel=0.0022 | bone=0.0000 | 4.3s
+2026-05-23 15:19:55.252 | INFO     | wisp.training.trainer:run_training:143 - epoch   38/300 | total=0.0336 | rec=0.0213 | pos=0.0073 | vel=0.0012 | accel=0.0026 | bone=0.0000 | 4.3s
+2026-05-23 15:19:59.524 | INFO     | wisp.training.trainer:run_training:143 - epoch   39/300 | total=0.0370 | rec=0.0248 | pos=0.0083 | vel=0.0010 | accel=0.0020 | bone=0.0000 | 4.3s
+2026-05-23 15:20:03.802 | INFO     | wisp.training.trainer:run_training:143 - epoch   40/300 | total=0.0334 | rec=0.0222 | pos=0.0074 | vel=0.0010 | accel=0.0019 | bone=0.0000 | 4.3s
+2026-05-23 15:20:08.071 | INFO     | wisp.training.trainer:run_training:143 - epoch   41/300 | total=0.0315 | rec=0.0208 | pos=0.0066 | vel=0.0010 | accel=0.0020 | bone=0.0000 | 4.3s
+2026-05-23 15:20:12.345 | INFO     | wisp.training.trainer:run_training:143 - epoch   42/300 | total=0.0311 | rec=0.0207 | pos=0.0068 | vel=0.0009 | accel=0.0018 | bone=0.0000 | 4.3s
+2026-05-23 15:20:16.615 | INFO     | wisp.training.trainer:run_training:143 - epoch   43/300 | total=0.0345 | rec=0.0231 | pos=0.0077 | vel=0.0009 | accel=0.0018 | bone=0.0000 | 4.3s
+2026-05-23 15:20:20.897 | INFO     | wisp.training.trainer:run_training:143 - epoch   44/300 | total=0.0328 | rec=0.0217 | pos=0.0074 | vel=0.0009 | accel=0.0018 | bone=0.0000 | 4.3s
+2026-05-23 15:20:25.172 | INFO     | wisp.training.trainer:run_training:143 - epoch   45/300 | total=0.0310 | rec=0.0204 | pos=0.0069 | vel=0.0009 | accel=0.0018 | bone=0.0000 | 4.3s
+2026-05-23 15:20:29.445 | INFO     | wisp.training.trainer:run_training:143 - epoch   46/300 | total=0.0301 | rec=0.0201 | pos=0.0067 | vel=0.0009 | accel=0.0016 | bone=0.0000 | 4.3s
+2026-05-23 15:20:33.721 | INFO     | wisp.training.trainer:run_training:143 - epoch   47/300 | total=0.0307 | rec=0.0204 | pos=0.0069 | vel=0.0009 | accel=0.0017 | bone=0.0000 | 4.3s
+2026-05-23 15:20:38.011 | INFO     | wisp.training.trainer:run_training:143 - epoch   48/300 | total=0.0302 | rec=0.0203 | pos=0.0067 | vel=0.0008 | accel=0.0015 | bone=0.0000 | 4.3s
+2026-05-23 15:20:42.280 | INFO     | wisp.training.trainer:run_training:143 - epoch   49/300 | total=0.0285 | rec=0.0190 | pos=0.0062 | vel=0.0008 | accel=0.0016 | bone=0.0000 | 4.3s
+2026-05-23 15:20:46.554 | INFO     | wisp.training.trainer:run_training:143 - epoch   50/300 | total=0.0293 | rec=0.0195 | pos=0.0066 | vel=0.0008 | accel=0.0015 | bone=0.0000 | 4.3s
+2026-05-23 15:20:46.736 | INFO     | wisp.training.trainer:run_training:163 - checkpoint saved (epoch 50)
+2026-05-23 15:20:51.024 | INFO     | wisp.training.trainer:run_training:143 - epoch   51/300 | total=0.0298 | rec=0.0200 | pos=0.0066 | vel=0.0008 | accel=0.0015 | bone=0.0000 | 4.3s
+2026-05-23 15:20:55.310 | INFO     | wisp.training.trainer:run_training:143 - epoch   52/300 | total=0.0297 | rec=0.0197 | pos=0.0066 | vel=0.0009 | accel=0.0016 | bone=0.0000 | 4.3s
+2026-05-23 15:20:59.584 | INFO     | wisp.training.trainer:run_training:143 - epoch   53/300 | total=0.0326 | rec=0.0218 | pos=0.0076 | vel=0.0008 | accel=0.0015 | bone=0.0000 | 4.3s
+2026-05-23 15:21:03.869 | INFO     | wisp.training.trainer:run_training:143 - epoch   54/300 | total=0.0299 | rec=0.0197 | pos=0.0067 | vel=0.0009 | accel=0.0017 | bone=0.0000 | 4.3s
+2026-05-23 15:21:08.145 | INFO     | wisp.training.trainer:run_training:143 - epoch   55/300 | total=0.0292 | rec=0.0197 | pos=0.0064 | vel=0.0008 | accel=0.0015 | bone=0.0000 | 4.3s
+2026-05-23 15:21:12.421 | INFO     | wisp.training.trainer:run_training:143 - epoch   56/300 | total=0.0294 | rec=0.0196 | pos=0.0066 | vel=0.0008 | accel=0.0016 | bone=0.0000 | 4.3s
+2026-05-23 15:21:16.698 | INFO     | wisp.training.trainer:run_training:143 - epoch   57/300 | total=0.0296 | rec=0.0198 | pos=0.0069 | vel=0.0008 | accel=0.0014 | bone=0.0000 | 4.3s
+2026-05-23 15:21:21.001 | INFO     | wisp.training.trainer:run_training:143 - epoch   58/300 | total=0.0291 | rec=0.0195 | pos=0.0067 | vel=0.0008 | accel=0.0014 | bone=0.0000 | 4.3s
+2026-05-23 15:21:25.277 | INFO     | wisp.training.trainer:run_training:143 - epoch   59/300 | total=0.0325 | rec=0.0214 | pos=0.0077 | vel=0.0009 | accel=0.0017 | bone=0.0000 | 4.3s
+2026-05-23 15:21:29.547 | INFO     | wisp.training.trainer:run_training:143 - epoch   60/300 | total=0.0290 | rec=0.0196 | pos=0.0066 | vel=0.0008 | accel=0.0013 | bone=0.0000 | 4.3s
+2026-05-23 15:21:33.827 | INFO     | wisp.training.trainer:run_training:143 - epoch   61/300 | total=0.0289 | rec=0.0192 | pos=0.0066 | vel=0.0008 | accel=0.0015 | bone=0.0000 | 4.3s
+2026-05-23 15:21:38.135 | INFO     | wisp.training.trainer:run_training:143 - epoch   62/300 | total=0.0274 | rec=0.0184 | pos=0.0063 | vel=0.0007 | accel=0.0012 | bone=0.0000 | 4.3s
+2026-05-23 15:21:42.424 | INFO     | wisp.training.trainer:run_training:143 - epoch   63/300 | total=0.0275 | rec=0.0184 | pos=0.0063 | vel=0.0008 | accel=0.0013 | bone=0.0000 | 4.3s
+2026-05-23 15:21:46.709 | INFO     | wisp.training.trainer:run_training:143 - epoch   64/300 | total=0.0273 | rec=0.0183 | pos=0.0061 | vel=0.0008 | accel=0.0013 | bone=0.0000 | 4.3s
+2026-05-23 15:21:50.995 | INFO     | wisp.training.trainer:run_training:143 - epoch   65/300 | total=0.0294 | rec=0.0197 | pos=0.0068 | vel=0.0008 | accel=0.0014 | bone=0.0000 | 4.3s
+2026-05-23 15:21:55.307 | INFO     | wisp.training.trainer:run_training:143 - epoch   66/300 | total=0.0295 | rec=0.0200 | pos=0.0069 | vel=0.0007 | accel=0.0012 | bone=0.0000 | 4.3s
+2026-05-23 15:21:59.602 | INFO     | wisp.training.trainer:run_training:143 - epoch   67/300 | total=0.0273 | rec=0.0184 | pos=0.0061 | vel=0.0007 | accel=0.0013 | bone=0.0000 | 4.3s
+2026-05-23 15:22:03.885 | INFO     | wisp.training.trainer:run_training:143 - epoch   68/300 | total=0.0277 | rec=0.0187 | pos=0.0064 | vel=0.0007 | accel=0.0012 | bone=0.0000 | 4.3s
+2026-05-23 15:22:08.179 | INFO     | wisp.training.trainer:run_training:143 - epoch   69/300 | total=0.0270 | rec=0.0182 | pos=0.0063 | vel=0.0007 | accel=0.0012 | bone=0.0000 | 4.3s
+2026-05-23 15:22:12.467 | INFO     | wisp.training.trainer:run_training:143 - epoch   70/300 | total=0.0259 | rec=0.0176 | pos=0.0058 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:22:16.745 | INFO     | wisp.training.trainer:run_training:143 - epoch   71/300 | total=0.0256 | rec=0.0174 | pos=0.0058 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:22:21.047 | INFO     | wisp.training.trainer:run_training:143 - epoch   72/300 | total=0.0270 | rec=0.0182 | pos=0.0063 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:22:25.327 | INFO     | wisp.training.trainer:run_training:143 - epoch   73/300 | total=0.0288 | rec=0.0196 | pos=0.0068 | vel=0.0007 | accel=0.0010 | bone=0.0000 | 4.3s
+2026-05-23 15:22:29.608 | INFO     | wisp.training.trainer:run_training:143 - epoch   74/300 | total=0.0276 | rec=0.0188 | pos=0.0063 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:22:33.895 | INFO     | wisp.training.trainer:run_training:143 - epoch   75/300 | total=0.0262 | rec=0.0177 | pos=0.0061 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:22:34.077 | INFO     | wisp.training.trainer:run_training:163 - checkpoint saved (epoch 75)
+2026-05-23 15:22:38.359 | INFO     | wisp.training.trainer:run_training:143 - epoch   76/300 | total=0.0269 | rec=0.0181 | pos=0.0063 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:22:42.636 | INFO     | wisp.training.trainer:run_training:143 - epoch   77/300 | total=0.0253 | rec=0.0171 | pos=0.0058 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:22:46.916 | INFO     | wisp.training.trainer:run_training:143 - epoch   78/300 | total=0.0256 | rec=0.0174 | pos=0.0058 | vel=0.0007 | accel=0.0010 | bone=0.0000 | 4.3s
+2026-05-23 15:22:51.218 | INFO     | wisp.training.trainer:run_training:143 - epoch   79/300 | total=0.0260 | rec=0.0174 | pos=0.0061 | vel=0.0007 | accel=0.0012 | bone=0.0000 | 4.3s
+2026-05-23 15:22:55.502 | INFO     | wisp.training.trainer:run_training:143 - epoch   80/300 | total=0.0254 | rec=0.0174 | pos=0.0058 | vel=0.0006 | accel=0.0010 | bone=0.0000 | 4.3s
+2026-05-23 15:22:59.783 | INFO     | wisp.training.trainer:run_training:143 - epoch   81/300 | total=0.0270 | rec=0.0183 | pos=0.0063 | vel=0.0007 | accel=0.0010 | bone=0.0000 | 4.3s
+2026-05-23 15:23:04.065 | INFO     | wisp.training.trainer:run_training:143 - epoch   82/300 | total=0.0264 | rec=0.0177 | pos=0.0061 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:23:08.348 | INFO     | wisp.training.trainer:run_training:143 - epoch   83/300 | total=0.0253 | rec=0.0172 | pos=0.0058 | vel=0.0006 | accel=0.0010 | bone=0.0000 | 4.3s
+2026-05-23 15:23:12.632 | INFO     | wisp.training.trainer:run_training:143 - epoch   84/300 | total=0.0263 | rec=0.0178 | pos=0.0061 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:23:16.916 | INFO     | wisp.training.trainer:run_training:143 - epoch   85/300 | total=0.0288 | rec=0.0194 | pos=0.0069 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:23:21.211 | INFO     | wisp.training.trainer:run_training:143 - epoch   86/300 | total=0.0274 | rec=0.0184 | pos=0.0065 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:23:25.496 | INFO     | wisp.training.trainer:run_training:143 - epoch   87/300 | total=0.0259 | rec=0.0173 | pos=0.0062 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:23:29.778 | INFO     | wisp.training.trainer:run_training:143 - epoch   88/300 | total=0.0257 | rec=0.0172 | pos=0.0061 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:23:34.059 | INFO     | wisp.training.trainer:run_training:143 - epoch   89/300 | total=0.0252 | rec=0.0171 | pos=0.0059 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:23:38.346 | INFO     | wisp.training.trainer:run_training:143 - epoch   90/300 | total=0.0250 | rec=0.0170 | pos=0.0057 | vel=0.0006 | accel=0.0010 | bone=0.0000 | 4.3s
+2026-05-23 15:23:42.628 | INFO     | wisp.training.trainer:run_training:143 - epoch   91/300 | total=0.0269 | rec=0.0179 | pos=0.0064 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:23:46.905 | INFO     | wisp.training.trainer:run_training:143 - epoch   92/300 | total=0.0266 | rec=0.0179 | pos=0.0064 | vel=0.0006 | accel=0.0010 | bone=0.0000 | 4.3s
+2026-05-23 15:23:51.183 | INFO     | wisp.training.trainer:run_training:143 - epoch   93/300 | total=0.0257 | rec=0.0173 | pos=0.0060 | vel=0.0007 | accel=0.0010 | bone=0.0000 | 4.3s
+2026-05-23 15:23:55.482 | INFO     | wisp.training.trainer:run_training:143 - epoch   94/300 | total=0.0265 | rec=0.0179 | pos=0.0063 | vel=0.0006 | accel=0.0010 | bone=0.0000 | 4.3s
+2026-05-23 15:23:59.760 | INFO     | wisp.training.trainer:run_training:143 - epoch   95/300 | total=0.0261 | rec=0.0175 | pos=0.0062 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:24:04.054 | INFO     | wisp.training.trainer:run_training:143 - epoch   96/300 | total=0.0258 | rec=0.0175 | pos=0.0062 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:24:08.338 | INFO     | wisp.training.trainer:run_training:143 - epoch   97/300 | total=0.0264 | rec=0.0178 | pos=0.0063 | vel=0.0007 | accel=0.0010 | bone=0.0000 | 4.3s
+2026-05-23 15:24:12.622 | INFO     | wisp.training.trainer:run_training:143 - epoch   98/300 | total=0.0244 | rec=0.0165 | pos=0.0058 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:24:16.904 | INFO     | wisp.training.trainer:run_training:143 - epoch   99/300 | total=0.0265 | rec=0.0177 | pos=0.0063 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:24:21.207 | INFO     | wisp.training.trainer:run_training:143 - epoch  100/300 | total=0.0254 | rec=0.0171 | pos=0.0060 | vel=0.0007 | accel=0.0010 | bone=0.0000 | 4.3s
+2026-05-23 15:24:21.391 | INFO     | wisp.training.trainer:run_training:163 - checkpoint saved (epoch 100)
+2026-05-23 15:24:25.673 | INFO     | wisp.training.trainer:run_training:143 - epoch  101/300 | total=0.0243 | rec=0.0163 | pos=0.0058 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:24:29.952 | INFO     | wisp.training.trainer:run_training:143 - epoch  102/300 | total=0.0245 | rec=0.0165 | pos=0.0059 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:24:34.229 | INFO     | wisp.training.trainer:run_training:143 - epoch  103/300 | total=0.0242 | rec=0.0165 | pos=0.0057 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:24:38.509 | INFO     | wisp.training.trainer:run_training:143 - epoch  104/300 | total=0.0244 | rec=0.0165 | pos=0.0058 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:24:42.789 | INFO     | wisp.training.trainer:run_training:143 - epoch  105/300 | total=0.0241 | rec=0.0163 | pos=0.0057 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:24:47.077 | INFO     | wisp.training.trainer:run_training:143 - epoch  106/300 | total=0.0245 | rec=0.0165 | pos=0.0058 | vel=0.0006 | accel=0.0010 | bone=0.0000 | 4.3s
+2026-05-23 15:24:51.360 | INFO     | wisp.training.trainer:run_training:143 - epoch  107/300 | total=0.0275 | rec=0.0182 | pos=0.0068 | vel=0.0007 | accel=0.0011 | bone=0.0000 | 4.3s
+2026-05-23 15:24:55.642 | INFO     | wisp.training.trainer:run_training:143 - epoch  108/300 | total=0.0252 | rec=0.0170 | pos=0.0062 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:24:59.945 | INFO     | wisp.training.trainer:run_training:143 - epoch  109/300 | total=0.0246 | rec=0.0166 | pos=0.0059 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:25:04.235 | INFO     | wisp.training.trainer:run_training:143 - epoch  110/300 | total=0.0239 | rec=0.0161 | pos=0.0058 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:25:08.521 | INFO     | wisp.training.trainer:run_training:143 - epoch  111/300 | total=0.0231 | rec=0.0156 | pos=0.0055 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:25:12.800 | INFO     | wisp.training.trainer:run_training:143 - epoch  112/300 | total=0.0235 | rec=0.0158 | pos=0.0057 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:25:17.083 | INFO     | wisp.training.trainer:run_training:143 - epoch  113/300 | total=0.0241 | rec=0.0162 | pos=0.0057 | vel=0.0006 | accel=0.0010 | bone=0.0000 | 4.3s
+2026-05-23 15:25:21.375 | INFO     | wisp.training.trainer:run_training:143 - epoch  114/300 | total=0.0237 | rec=0.0159 | pos=0.0057 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:25:25.660 | INFO     | wisp.training.trainer:run_training:143 - epoch  115/300 | total=0.0239 | rec=0.0162 | pos=0.0058 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:25:29.941 | INFO     | wisp.training.trainer:run_training:143 - epoch  116/300 | total=0.0244 | rec=0.0165 | pos=0.0060 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:25:34.225 | INFO     | wisp.training.trainer:run_training:143 - epoch  117/300 | total=0.0238 | rec=0.0161 | pos=0.0058 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:25:38.507 | INFO     | wisp.training.trainer:run_training:143 - epoch  118/300 | total=0.0235 | rec=0.0160 | pos=0.0056 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:25:42.782 | INFO     | wisp.training.trainer:run_training:143 - epoch  119/300 | total=0.0233 | rec=0.0155 | pos=0.0056 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:25:47.066 | INFO     | wisp.training.trainer:run_training:143 - epoch  120/300 | total=0.0239 | rec=0.0161 | pos=0.0057 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:25:51.349 | INFO     | wisp.training.trainer:run_training:143 - epoch  121/300 | total=0.0240 | rec=0.0162 | pos=0.0058 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:25:55.628 | INFO     | wisp.training.trainer:run_training:143 - epoch  122/300 | total=0.0246 | rec=0.0166 | pos=0.0060 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:25:59.910 | INFO     | wisp.training.trainer:run_training:143 - epoch  123/300 | total=0.0243 | rec=0.0165 | pos=0.0059 | vel=0.0006 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:26:04.196 | INFO     | wisp.training.trainer:run_training:143 - epoch  124/300 | total=0.0230 | rec=0.0156 | pos=0.0055 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:26:08.496 | INFO     | wisp.training.trainer:run_training:143 - epoch  125/300 | total=0.0236 | rec=0.0159 | pos=0.0056 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:26:08.675 | INFO     | wisp.training.trainer:run_training:163 - checkpoint saved (epoch 125)
+2026-05-23 15:26:12.954 | INFO     | wisp.training.trainer:run_training:143 - epoch  126/300 | total=0.0233 | rec=0.0156 | pos=0.0056 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:26:17.231 | INFO     | wisp.training.trainer:run_training:143 - epoch  127/300 | total=0.0241 | rec=0.0162 | pos=0.0058 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:26:21.524 | INFO     | wisp.training.trainer:run_training:143 - epoch  128/300 | total=0.0255 | rec=0.0172 | pos=0.0062 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:26:25.803 | INFO     | wisp.training.trainer:run_training:143 - epoch  129/300 | total=0.0224 | rec=0.0150 | pos=0.0054 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:26:30.077 | INFO     | wisp.training.trainer:run_training:143 - epoch  130/300 | total=0.0225 | rec=0.0150 | pos=0.0054 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:26:34.368 | INFO     | wisp.training.trainer:run_training:143 - epoch  131/300 | total=0.0222 | rec=0.0148 | pos=0.0054 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:26:38.646 | INFO     | wisp.training.trainer:run_training:143 - epoch  132/300 | total=0.0232 | rec=0.0155 | pos=0.0057 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:26:42.926 | INFO     | wisp.training.trainer:run_training:143 - epoch  133/300 | total=0.0230 | rec=0.0154 | pos=0.0056 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:26:47.210 | INFO     | wisp.training.trainer:run_training:143 - epoch  134/300 | total=0.0233 | rec=0.0157 | pos=0.0057 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:26:51.501 | INFO     | wisp.training.trainer:run_training:143 - epoch  135/300 | total=0.0219 | rec=0.0148 | pos=0.0052 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:26:55.779 | INFO     | wisp.training.trainer:run_training:143 - epoch  136/300 | total=0.0221 | rec=0.0148 | pos=0.0053 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:27:00.063 | INFO     | wisp.training.trainer:run_training:143 - epoch  137/300 | total=0.0229 | rec=0.0155 | pos=0.0054 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:27:04.449 | INFO     | wisp.training.trainer:run_training:143 - epoch  138/300 | total=0.0215 | rec=0.0145 | pos=0.0051 | vel=0.0006 | accel=0.0007 | bone=0.0000 | 4.4s
+2026-05-23 15:27:08.774 | INFO     | wisp.training.trainer:run_training:143 - epoch  139/300 | total=0.0222 | rec=0.0149 | pos=0.0053 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:27:13.108 | INFO     | wisp.training.trainer:run_training:143 - epoch  140/300 | total=0.0219 | rec=0.0147 | pos=0.0053 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:27:17.397 | INFO     | wisp.training.trainer:run_training:143 - epoch  141/300 | total=0.0219 | rec=0.0146 | pos=0.0053 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:27:21.691 | INFO     | wisp.training.trainer:run_training:143 - epoch  142/300 | total=0.0225 | rec=0.0151 | pos=0.0055 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:27:26.019 | INFO     | wisp.training.trainer:run_training:143 - epoch  143/300 | total=0.0221 | rec=0.0148 | pos=0.0054 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:27:30.346 | INFO     | wisp.training.trainer:run_training:143 - epoch  144/300 | total=0.0226 | rec=0.0151 | pos=0.0055 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:27:34.632 | INFO     | wisp.training.trainer:run_training:143 - epoch  145/300 | total=0.0220 | rec=0.0148 | pos=0.0053 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:27:38.960 | INFO     | wisp.training.trainer:run_training:143 - epoch  146/300 | total=0.0223 | rec=0.0150 | pos=0.0054 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:27:43.253 | INFO     | wisp.training.trainer:run_training:143 - epoch  147/300 | total=0.0212 | rec=0.0144 | pos=0.0050 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:27:47.548 | INFO     | wisp.training.trainer:run_training:143 - epoch  148/300 | total=0.0217 | rec=0.0146 | pos=0.0051 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:27:51.842 | INFO     | wisp.training.trainer:run_training:143 - epoch  149/300 | total=0.0218 | rec=0.0147 | pos=0.0053 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:27:56.128 | INFO     | wisp.training.trainer:run_training:143 - epoch  150/300 | total=0.0222 | rec=0.0149 | pos=0.0054 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:27:56.309 | INFO     | wisp.training.trainer:run_training:163 - checkpoint saved (epoch 150)
+2026-05-23 15:28:00.592 | INFO     | wisp.training.trainer:run_training:143 - epoch  151/300 | total=0.0216 | rec=0.0145 | pos=0.0052 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:28:04.876 | INFO     | wisp.training.trainer:run_training:143 - epoch  152/300 | total=0.0210 | rec=0.0140 | pos=0.0050 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:28:09.159 | INFO     | wisp.training.trainer:run_training:143 - epoch  153/300 | total=0.0207 | rec=0.0139 | pos=0.0049 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:28:13.440 | INFO     | wisp.training.trainer:run_training:143 - epoch  154/300 | total=0.0207 | rec=0.0138 | pos=0.0049 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:28:17.745 | INFO     | wisp.training.trainer:run_training:143 - epoch  155/300 | total=0.0208 | rec=0.0140 | pos=0.0050 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:28:22.027 | INFO     | wisp.training.trainer:run_training:143 - epoch  156/300 | total=0.0207 | rec=0.0137 | pos=0.0049 | vel=0.0006 | accel=0.0009 | bone=0.0000 | 4.3s
+2026-05-23 15:28:26.312 | INFO     | wisp.training.trainer:run_training:143 - epoch  157/300 | total=0.0207 | rec=0.0139 | pos=0.0050 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:28:30.617 | INFO     | wisp.training.trainer:run_training:143 - epoch  158/300 | total=0.0212 | rec=0.0143 | pos=0.0051 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:28:34.930 | INFO     | wisp.training.trainer:run_training:143 - epoch  159/300 | total=0.0207 | rec=0.0140 | pos=0.0049 | vel=0.0006 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:28:39.243 | INFO     | wisp.training.trainer:run_training:143 - epoch  160/300 | total=0.0210 | rec=0.0141 | pos=0.0050 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:28:43.542 | INFO     | wisp.training.trainer:run_training:143 - epoch  161/300 | total=0.0220 | rec=0.0149 | pos=0.0052 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:28:47.841 | INFO     | wisp.training.trainer:run_training:143 - epoch  162/300 | total=0.0216 | rec=0.0145 | pos=0.0052 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:28:52.139 | INFO     | wisp.training.trainer:run_training:143 - epoch  163/300 | total=0.0211 | rec=0.0143 | pos=0.0049 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:28:56.431 | INFO     | wisp.training.trainer:run_training:143 - epoch  164/300 | total=0.0210 | rec=0.0142 | pos=0.0049 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:29:00.758 | INFO     | wisp.training.trainer:run_training:143 - epoch  165/300 | total=0.0196 | rec=0.0133 | pos=0.0045 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:29:05.060 | INFO     | wisp.training.trainer:run_training:143 - epoch  166/300 | total=0.0193 | rec=0.0130 | pos=0.0045 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:29:09.352 | INFO     | wisp.training.trainer:run_training:143 - epoch  167/300 | total=0.0204 | rec=0.0138 | pos=0.0048 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:29:13.646 | INFO     | wisp.training.trainer:run_training:143 - epoch  168/300 | total=0.0201 | rec=0.0135 | pos=0.0048 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:29:17.928 | INFO     | wisp.training.trainer:run_training:143 - epoch  169/300 | total=0.0201 | rec=0.0136 | pos=0.0048 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:29:22.226 | INFO     | wisp.training.trainer:run_training:143 - epoch  170/300 | total=0.0200 | rec=0.0134 | pos=0.0047 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:29:26.525 | INFO     | wisp.training.trainer:run_training:143 - epoch  171/300 | total=0.0201 | rec=0.0134 | pos=0.0048 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:29:30.816 | INFO     | wisp.training.trainer:run_training:143 - epoch  172/300 | total=0.0200 | rec=0.0134 | pos=0.0047 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:29:35.124 | INFO     | wisp.training.trainer:run_training:143 - epoch  173/300 | total=0.0203 | rec=0.0137 | pos=0.0048 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:29:39.447 | INFO     | wisp.training.trainer:run_training:143 - epoch  174/300 | total=0.0196 | rec=0.0133 | pos=0.0046 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:29:43.778 | INFO     | wisp.training.trainer:run_training:143 - epoch  175/300 | total=0.0191 | rec=0.0128 | pos=0.0045 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:29:43.954 | INFO     | wisp.training.trainer:run_training:163 - checkpoint saved (epoch 175)
+2026-05-23 15:29:48.289 | INFO     | wisp.training.trainer:run_training:143 - epoch  176/300 | total=0.0191 | rec=0.0129 | pos=0.0045 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:29:52.625 | INFO     | wisp.training.trainer:run_training:143 - epoch  177/300 | total=0.0192 | rec=0.0130 | pos=0.0044 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:29:56.967 | INFO     | wisp.training.trainer:run_training:143 - epoch  178/300 | total=0.0193 | rec=0.0131 | pos=0.0045 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:30:01.316 | INFO     | wisp.training.trainer:run_training:143 - epoch  179/300 | total=0.0201 | rec=0.0135 | pos=0.0047 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:30:05.663 | INFO     | wisp.training.trainer:run_training:143 - epoch  180/300 | total=0.0189 | rec=0.0128 | pos=0.0044 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:30:10.016 | INFO     | wisp.training.trainer:run_training:143 - epoch  181/300 | total=0.0197 | rec=0.0134 | pos=0.0046 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.4s
+2026-05-23 15:30:14.370 | INFO     | wisp.training.trainer:run_training:143 - epoch  182/300 | total=0.0195 | rec=0.0131 | pos=0.0047 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.4s
+2026-05-23 15:30:18.720 | INFO     | wisp.training.trainer:run_training:143 - epoch  183/300 | total=0.0199 | rec=0.0135 | pos=0.0046 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:30:23.070 | INFO     | wisp.training.trainer:run_training:143 - epoch  184/300 | total=0.0197 | rec=0.0133 | pos=0.0045 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.4s
+2026-05-23 15:30:27.380 | INFO     | wisp.training.trainer:run_training:143 - epoch  185/300 | total=0.0188 | rec=0.0127 | pos=0.0044 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:30:31.704 | INFO     | wisp.training.trainer:run_training:143 - epoch  186/300 | total=0.0192 | rec=0.0129 | pos=0.0045 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:30:35.996 | INFO     | wisp.training.trainer:run_training:143 - epoch  187/300 | total=0.0213 | rec=0.0142 | pos=0.0052 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:30:40.306 | INFO     | wisp.training.trainer:run_training:143 - epoch  188/300 | total=0.0218 | rec=0.0148 | pos=0.0053 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:30:44.604 | INFO     | wisp.training.trainer:run_training:143 - epoch  189/300 | total=0.0200 | rec=0.0136 | pos=0.0046 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:30:48.890 | INFO     | wisp.training.trainer:run_training:143 - epoch  190/300 | total=0.0191 | rec=0.0130 | pos=0.0045 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:30:53.174 | INFO     | wisp.training.trainer:run_training:143 - epoch  191/300 | total=0.0193 | rec=0.0131 | pos=0.0045 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:30:57.457 | INFO     | wisp.training.trainer:run_training:143 - epoch  192/300 | total=0.0201 | rec=0.0135 | pos=0.0048 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:31:01.746 | INFO     | wisp.training.trainer:run_training:143 - epoch  193/300 | total=0.0201 | rec=0.0134 | pos=0.0048 | vel=0.0005 | accel=0.0008 | bone=0.0000 | 4.3s
+2026-05-23 15:31:06.026 | INFO     | wisp.training.trainer:run_training:143 - epoch  194/300 | total=0.0202 | rec=0.0137 | pos=0.0048 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:31:10.310 | INFO     | wisp.training.trainer:run_training:143 - epoch  195/300 | total=0.0196 | rec=0.0133 | pos=0.0047 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:31:14.593 | INFO     | wisp.training.trainer:run_training:143 - epoch  196/300 | total=0.0196 | rec=0.0134 | pos=0.0046 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:31:18.874 | INFO     | wisp.training.trainer:run_training:143 - epoch  197/300 | total=0.0181 | rec=0.0124 | pos=0.0042 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:31:23.159 | INFO     | wisp.training.trainer:run_training:143 - epoch  198/300 | total=0.0190 | rec=0.0128 | pos=0.0044 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:31:27.447 | INFO     | wisp.training.trainer:run_training:143 - epoch  199/300 | total=0.0196 | rec=0.0134 | pos=0.0047 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:31:31.739 | INFO     | wisp.training.trainer:run_training:143 - epoch  200/300 | total=0.0189 | rec=0.0129 | pos=0.0044 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:31:31.928 | INFO     | wisp.training.trainer:run_training:163 - checkpoint saved (epoch 200)
+2026-05-23 15:31:36.231 | INFO     | wisp.training.trainer:run_training:143 - epoch  201/300 | total=0.0186 | rec=0.0126 | pos=0.0044 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:31:40.510 | INFO     | wisp.training.trainer:run_training:143 - epoch  202/300 | total=0.0188 | rec=0.0127 | pos=0.0045 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:31:44.806 | INFO     | wisp.training.trainer:run_training:143 - epoch  203/300 | total=0.0193 | rec=0.0131 | pos=0.0045 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:31:49.082 | INFO     | wisp.training.trainer:run_training:143 - epoch  204/300 | total=0.0184 | rec=0.0125 | pos=0.0043 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:31:53.360 | INFO     | wisp.training.trainer:run_training:143 - epoch  205/300 | total=0.0180 | rec=0.0123 | pos=0.0042 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:31:57.647 | INFO     | wisp.training.trainer:run_training:143 - epoch  206/300 | total=0.0187 | rec=0.0126 | pos=0.0044 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:32:01.934 | INFO     | wisp.training.trainer:run_training:143 - epoch  207/300 | total=0.0185 | rec=0.0126 | pos=0.0043 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:32:06.218 | INFO     | wisp.training.trainer:run_training:143 - epoch  208/300 | total=0.0184 | rec=0.0125 | pos=0.0043 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:32:10.499 | INFO     | wisp.training.trainer:run_training:143 - epoch  209/300 | total=0.0194 | rec=0.0131 | pos=0.0047 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:32:14.776 | INFO     | wisp.training.trainer:run_training:143 - epoch  210/300 | total=0.0199 | rec=0.0136 | pos=0.0047 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:32:19.059 | INFO     | wisp.training.trainer:run_training:143 - epoch  211/300 | total=0.0183 | rec=0.0125 | pos=0.0043 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:32:23.340 | INFO     | wisp.training.trainer:run_training:143 - epoch  212/300 | total=0.0179 | rec=0.0122 | pos=0.0041 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:32:27.624 | INFO     | wisp.training.trainer:run_training:143 - epoch  213/300 | total=0.0189 | rec=0.0128 | pos=0.0045 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:32:31.925 | INFO     | wisp.training.trainer:run_training:143 - epoch  214/300 | total=0.0180 | rec=0.0121 | pos=0.0042 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:32:36.207 | INFO     | wisp.training.trainer:run_training:143 - epoch  215/300 | total=0.0191 | rec=0.0130 | pos=0.0045 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:32:40.509 | INFO     | wisp.training.trainer:run_training:143 - epoch  216/300 | total=0.0179 | rec=0.0122 | pos=0.0042 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:32:44.793 | INFO     | wisp.training.trainer:run_training:143 - epoch  217/300 | total=0.0199 | rec=0.0135 | pos=0.0048 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:32:49.074 | INFO     | wisp.training.trainer:run_training:143 - epoch  218/300 | total=0.0184 | rec=0.0125 | pos=0.0044 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:32:53.358 | INFO     | wisp.training.trainer:run_training:143 - epoch  219/300 | total=0.0191 | rec=0.0130 | pos=0.0045 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:32:57.641 | INFO     | wisp.training.trainer:run_training:143 - epoch  220/300 | total=0.0194 | rec=0.0132 | pos=0.0046 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:33:01.925 | INFO     | wisp.training.trainer:run_training:143 - epoch  221/300 | total=0.0191 | rec=0.0131 | pos=0.0045 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:33:06.207 | INFO     | wisp.training.trainer:run_training:143 - epoch  222/300 | total=0.0191 | rec=0.0129 | pos=0.0045 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:33:10.491 | INFO     | wisp.training.trainer:run_training:143 - epoch  223/300 | total=0.0177 | rec=0.0119 | pos=0.0041 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:33:14.780 | INFO     | wisp.training.trainer:run_training:143 - epoch  224/300 | total=0.0175 | rec=0.0119 | pos=0.0040 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:33:19.059 | INFO     | wisp.training.trainer:run_training:143 - epoch  225/300 | total=0.0185 | rec=0.0126 | pos=0.0043 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:33:19.239 | INFO     | wisp.training.trainer:run_training:163 - checkpoint saved (epoch 225)
+2026-05-23 15:33:23.520 | INFO     | wisp.training.trainer:run_training:143 - epoch  226/300 | total=0.0180 | rec=0.0123 | pos=0.0042 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:33:27.801 | INFO     | wisp.training.trainer:run_training:143 - epoch  227/300 | total=0.0182 | rec=0.0123 | pos=0.0044 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:33:32.094 | INFO     | wisp.training.trainer:run_training:143 - epoch  228/300 | total=0.0181 | rec=0.0122 | pos=0.0044 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:33:36.379 | INFO     | wisp.training.trainer:run_training:143 - epoch  229/300 | total=0.0183 | rec=0.0124 | pos=0.0042 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:33:40.665 | INFO     | wisp.training.trainer:run_training:143 - epoch  230/300 | total=0.0178 | rec=0.0121 | pos=0.0041 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:33:44.956 | INFO     | wisp.training.trainer:run_training:143 - epoch  231/300 | total=0.0183 | rec=0.0126 | pos=0.0042 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:33:49.247 | INFO     | wisp.training.trainer:run_training:143 - epoch  232/300 | total=0.0182 | rec=0.0124 | pos=0.0043 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:33:53.531 | INFO     | wisp.training.trainer:run_training:143 - epoch  233/300 | total=0.0184 | rec=0.0125 | pos=0.0044 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:33:57.810 | INFO     | wisp.training.trainer:run_training:143 - epoch  234/300 | total=0.0185 | rec=0.0126 | pos=0.0044 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:34:02.098 | INFO     | wisp.training.trainer:run_training:143 - epoch  235/300 | total=0.0174 | rec=0.0119 | pos=0.0040 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:34:06.378 | INFO     | wisp.training.trainer:run_training:143 - epoch  236/300 | total=0.0193 | rec=0.0130 | pos=0.0046 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.3s
+2026-05-23 15:34:10.663 | INFO     | wisp.training.trainer:run_training:143 - epoch  237/300 | total=0.0192 | rec=0.0130 | pos=0.0046 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:34:14.944 | INFO     | wisp.training.trainer:run_training:143 - epoch  238/300 | total=0.0188 | rec=0.0129 | pos=0.0044 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:34:19.229 | INFO     | wisp.training.trainer:run_training:143 - epoch  239/300 | total=0.0176 | rec=0.0121 | pos=0.0041 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:34:23.516 | INFO     | wisp.training.trainer:run_training:143 - epoch  240/300 | total=0.0177 | rec=0.0121 | pos=0.0042 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:34:27.803 | INFO     | wisp.training.trainer:run_training:143 - epoch  241/300 | total=0.0177 | rec=0.0122 | pos=0.0041 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:34:32.098 | INFO     | wisp.training.trainer:run_training:143 - epoch  242/300 | total=0.0167 | rec=0.0114 | pos=0.0039 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:34:36.380 | INFO     | wisp.training.trainer:run_training:143 - epoch  243/300 | total=0.0178 | rec=0.0121 | pos=0.0042 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:34:40.669 | INFO     | wisp.training.trainer:run_training:143 - epoch  244/300 | total=0.0182 | rec=0.0125 | pos=0.0043 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:34:44.952 | INFO     | wisp.training.trainer:run_training:143 - epoch  245/300 | total=0.0186 | rec=0.0125 | pos=0.0045 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:34:49.235 | INFO     | wisp.training.trainer:run_training:143 - epoch  246/300 | total=0.0178 | rec=0.0122 | pos=0.0042 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:34:53.534 | INFO     | wisp.training.trainer:run_training:143 - epoch  247/300 | total=0.0179 | rec=0.0122 | pos=0.0042 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:34:57.814 | INFO     | wisp.training.trainer:run_training:143 - epoch  248/300 | total=0.0179 | rec=0.0121 | pos=0.0043 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:35:02.104 | INFO     | wisp.training.trainer:run_training:143 - epoch  249/300 | total=0.0175 | rec=0.0119 | pos=0.0041 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:35:06.389 | INFO     | wisp.training.trainer:run_training:143 - epoch  250/300 | total=0.0173 | rec=0.0117 | pos=0.0040 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:35:06.571 | INFO     | wisp.training.trainer:run_training:163 - checkpoint saved (epoch 250)
+2026-05-23 15:35:10.856 | INFO     | wisp.training.trainer:run_training:143 - epoch  251/300 | total=0.0178 | rec=0.0122 | pos=0.0042 | vel=0.0004 | accel=0.0005 | bone=0.0000 | 4.3s
+2026-05-23 15:35:15.134 | INFO     | wisp.training.trainer:run_training:143 - epoch  252/300 | total=0.0168 | rec=0.0115 | pos=0.0039 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:35:19.418 | INFO     | wisp.training.trainer:run_training:143 - epoch  253/300 | total=0.0162 | rec=0.0111 | pos=0.0037 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:35:23.705 | INFO     | wisp.training.trainer:run_training:143 - epoch  254/300 | total=0.0186 | rec=0.0127 | pos=0.0044 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:35:27.992 | INFO     | wisp.training.trainer:run_training:143 - epoch  255/300 | total=0.0172 | rec=0.0117 | pos=0.0040 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:35:32.291 | INFO     | wisp.training.trainer:run_training:143 - epoch  256/300 | total=0.0179 | rec=0.0122 | pos=0.0042 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:35:36.572 | INFO     | wisp.training.trainer:run_training:143 - epoch  257/300 | total=0.0162 | rec=0.0111 | pos=0.0037 | vel=0.0004 | accel=0.0005 | bone=0.0000 | 4.3s
+2026-05-23 15:35:40.855 | INFO     | wisp.training.trainer:run_training:143 - epoch  258/300 | total=0.0173 | rec=0.0117 | pos=0.0041 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:35:45.142 | INFO     | wisp.training.trainer:run_training:143 - epoch  259/300 | total=0.0170 | rec=0.0115 | pos=0.0041 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:35:49.426 | INFO     | wisp.training.trainer:run_training:143 - epoch  260/300 | total=0.0164 | rec=0.0112 | pos=0.0038 | vel=0.0004 | accel=0.0005 | bone=0.0000 | 4.3s
+2026-05-23 15:35:53.724 | INFO     | wisp.training.trainer:run_training:143 - epoch  261/300 | total=0.0174 | rec=0.0118 | pos=0.0041 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:35:58.034 | INFO     | wisp.training.trainer:run_training:143 - epoch  262/300 | total=0.0167 | rec=0.0112 | pos=0.0040 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:36:02.326 | INFO     | wisp.training.trainer:run_training:143 - epoch  263/300 | total=0.0173 | rec=0.0118 | pos=0.0040 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:36:06.606 | INFO     | wisp.training.trainer:run_training:143 - epoch  264/300 | total=0.0174 | rec=0.0119 | pos=0.0041 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:36:10.903 | INFO     | wisp.training.trainer:run_training:143 - epoch  265/300 | total=0.0175 | rec=0.0119 | pos=0.0041 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:36:15.322 | INFO     | wisp.training.trainer:run_training:143 - epoch  266/300 | total=0.0162 | rec=0.0111 | pos=0.0037 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:36:19.724 | INFO     | wisp.training.trainer:run_training:143 - epoch  267/300 | total=0.0164 | rec=0.0112 | pos=0.0038 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:36:24.109 | INFO     | wisp.training.trainer:run_training:143 - epoch  268/300 | total=0.0194 | rec=0.0131 | pos=0.0047 | vel=0.0005 | accel=0.0007 | bone=0.0000 | 4.4s
+2026-05-23 15:36:28.489 | INFO     | wisp.training.trainer:run_training:143 - epoch  269/300 | total=0.0190 | rec=0.0131 | pos=0.0045 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:36:32.868 | INFO     | wisp.training.trainer:run_training:143 - epoch  270/300 | total=0.0191 | rec=0.0130 | pos=0.0046 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:36:37.248 | INFO     | wisp.training.trainer:run_training:143 - epoch  271/300 | total=0.0191 | rec=0.0129 | pos=0.0047 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:36:41.625 | INFO     | wisp.training.trainer:run_training:143 - epoch  272/300 | total=0.0172 | rec=0.0117 | pos=0.0041 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:36:46.000 | INFO     | wisp.training.trainer:run_training:143 - epoch  273/300 | total=0.0174 | rec=0.0118 | pos=0.0041 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:36:50.379 | INFO     | wisp.training.trainer:run_training:143 - epoch  274/300 | total=0.0161 | rec=0.0109 | pos=0.0037 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:36:54.758 | INFO     | wisp.training.trainer:run_training:143 - epoch  275/300 | total=0.0181 | rec=0.0123 | pos=0.0043 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:36:54.942 | INFO     | wisp.training.trainer:run_training:163 - checkpoint saved (epoch 275)
+2026-05-23 15:36:59.312 | INFO     | wisp.training.trainer:run_training:143 - epoch  276/300 | total=0.0173 | rec=0.0118 | pos=0.0041 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:37:03.777 | INFO     | wisp.training.trainer:run_training:143 - epoch  277/300 | total=0.0166 | rec=0.0113 | pos=0.0039 | vel=0.0004 | accel=0.0005 | bone=0.0000 | 4.5s
+2026-05-23 15:37:08.156 | INFO     | wisp.training.trainer:run_training:143 - epoch  278/300 | total=0.0160 | rec=0.0108 | pos=0.0037 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:37:12.541 | INFO     | wisp.training.trainer:run_training:143 - epoch  279/300 | total=0.0168 | rec=0.0115 | pos=0.0039 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:37:16.922 | INFO     | wisp.training.trainer:run_training:143 - epoch  280/300 | total=0.0171 | rec=0.0116 | pos=0.0041 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:37:21.300 | INFO     | wisp.training.trainer:run_training:143 - epoch  281/300 | total=0.0165 | rec=0.0112 | pos=0.0038 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:37:25.683 | INFO     | wisp.training.trainer:run_training:143 - epoch  282/300 | total=0.0174 | rec=0.0117 | pos=0.0041 | vel=0.0005 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:37:30.058 | INFO     | wisp.training.trainer:run_training:143 - epoch  283/300 | total=0.0173 | rec=0.0117 | pos=0.0041 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:37:34.439 | INFO     | wisp.training.trainer:run_training:143 - epoch  284/300 | total=0.0177 | rec=0.0120 | pos=0.0042 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:37:38.822 | INFO     | wisp.training.trainer:run_training:143 - epoch  285/300 | total=0.0162 | rec=0.0112 | pos=0.0037 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:37:43.222 | INFO     | wisp.training.trainer:run_training:143 - epoch  286/300 | total=0.0162 | rec=0.0110 | pos=0.0037 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:37:47.619 | INFO     | wisp.training.trainer:run_training:143 - epoch  287/300 | total=0.0167 | rec=0.0113 | pos=0.0040 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:37:52.791 | INFO     | wisp.training.trainer:run_training:143 - epoch  288/300 | total=0.0177 | rec=0.0121 | pos=0.0042 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 5.2s
+2026-05-23 15:37:57.315 | INFO     | wisp.training.trainer:run_training:143 - epoch  289/300 | total=0.0176 | rec=0.0120 | pos=0.0042 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.5s
+2026-05-23 15:38:01.686 | INFO     | wisp.training.trainer:run_training:143 - epoch  290/300 | total=0.0167 | rec=0.0113 | pos=0.0039 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:38:06.106 | INFO     | wisp.training.trainer:run_training:143 - epoch  291/300 | total=0.0174 | rec=0.0118 | pos=0.0041 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.4s
+2026-05-23 15:38:10.719 | INFO     | wisp.training.trainer:run_training:143 - epoch  292/300 | total=0.0166 | rec=0.0113 | pos=0.0039 | vel=0.0004 | accel=0.0005 | bone=0.0000 | 4.6s
+2026-05-23 15:38:15.273 | INFO     | wisp.training.trainer:run_training:143 - epoch  293/300 | total=0.0168 | rec=0.0114 | pos=0.0040 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.6s
+2026-05-23 15:38:19.941 | INFO     | wisp.training.trainer:run_training:143 - epoch  294/300 | total=0.0163 | rec=0.0111 | pos=0.0038 | vel=0.0004 | accel=0.0005 | bone=0.0000 | 4.7s
+2026-05-23 15:38:24.470 | INFO     | wisp.training.trainer:run_training:143 - epoch  295/300 | total=0.0171 | rec=0.0116 | pos=0.0040 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.5s
+2026-05-23 15:38:28.794 | INFO     | wisp.training.trainer:run_training:143 - epoch  296/300 | total=0.0186 | rec=0.0127 | pos=0.0045 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:38:33.070 | INFO     | wisp.training.trainer:run_training:143 - epoch  297/300 | total=0.0163 | rec=0.0111 | pos=0.0038 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.3s
+2026-05-23 15:38:37.307 | INFO     | wisp.training.trainer:run_training:143 - epoch  298/300 | total=0.0168 | rec=0.0115 | pos=0.0038 | vel=0.0004 | accel=0.0006 | bone=0.0000 | 4.2s
+2026-05-23 15:38:41.543 | INFO     | wisp.training.trainer:run_training:143 - epoch  299/300 | total=0.0175 | rec=0.0119 | pos=0.0042 | vel=0.0004 | accel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 15:38:45.769 | INFO     | wisp.training.trainer:run_training:143 - epoch  300/300 | total=0.0159 | rec=0.0109 | pos=0.0037 | vel=0.0004 | accel=0.0005 | bone=0.0000 | 4.2s
+2026-05-23 15:38:45.950 | INFO     | wisp.training.trainer:run_training:163 - checkpoint saved (epoch 300)

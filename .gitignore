@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Virtual env
+.venv/
+venv/
+
+# Tooling caches
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Generated artefacts — keep report material and logs for the writeup.
+dataset/
+wandb/
+*.pt
+*.ckpt
+*.safetensors
+outputs/*
+!outputs/report/
+!outputs/logs/
+
+# Rendered previews (top-level GIF / PNG outputs)
+/*.gif
+/*.png
+
+resources/smpl/SMPL_NEUTRAL.pkl
+resources/smpl/SMPL_NEUTRAL.npz
